@@ -39,6 +39,8 @@ Kode peserta **K** dibagikan Minggu 1, satu per mahasiswa, dan menurunkan besara
 | pengajar/01-rancangan-modul.md (privat — repo dosen) | Dokumen keputusan internal dan peta beban kerja |
 | pengajar/02-panduan-sesi.md (privat — repo dosen) | Rundown, petunjuk saat kelas macet, titik rawan |
 | pengajar/03-rubrik-dan-penilaian.md (privat — repo dosen) | **Memuat bank soal kuis** dan lembar penilaian |
+| pengajar/penilaian/ (privat — repo dosen) | Lembar nilai CSV berisi nama dan nilai mahasiswa |
+| pengajar/tools/ (privat — repo dosen) | Skrip rekap nilai |
 
 ### Penyesuaian terhadap kendala mata kuliah
 
