@@ -1,4 +1,4 @@
-# Kapita Selekta: AI Engineering — Daftar Modul dan Cara Memakainya tessst
+# Kapita Selekta: AI Engineering — Daftar Modul dan Cara Memakainya
 
 **Merancang dan Membangun Produk Berbasis AI Agent | 2 SKS | Ganjil 2026/2027**
 **Dosen: Aidil Saputra Kirsan, S.ST., M.Tr.Kom. | Tanpa asisten dosen**
