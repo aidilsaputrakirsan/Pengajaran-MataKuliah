@@ -1,0 +1,20 @@
+# === PRIVAT: materi dosen, JANGAN pernah masuk repo publik ===
+# Kunci jawaban, rubrik internal, resep fault injection, data penilaian.
+pengajar/
+**/pengajar/
+
+# Lembar parameter per mahasiswa (dibagikan satu-satu, bukan lewat repo)
+lembar-parameter/
+parameter-*.md
+
+# Keluaran yang bisa dibangkitkan ulang skrip
+*.mbz
+pratinjau-*.html
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+Thumbs.db
+.DS_Store
