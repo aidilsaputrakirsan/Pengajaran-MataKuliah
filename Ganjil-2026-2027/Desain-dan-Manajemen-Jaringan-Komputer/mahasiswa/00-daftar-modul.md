@@ -29,6 +29,7 @@ Baca modul **sebelum** sesi praktikum, bukan saat sesi berjalan. Bagian Konsep d
 | [lampiran/D-template-fault-report.md](lampiran/D-template-fault-report.md) | Template laporan diagnosis, dipakai pekan 7, 11, 12, 15, dan UTS |
 | [lampiran/E-bank-pertanyaan-viva.md](lampiran/E-bank-pertanyaan-viva.md) | Seluruh pertanyaan viva, dibagikan terbuka |
 | [lampiran/F-glosarium.md](lampiran/F-glosarium.md) | Padanan istilah Inggris dan Indonesia, serta di pekan mana tiap istilah diperkenalkan |
+| [lampiran/G-rencana-instrumen-dan-rubrik.md](lampiran/G-rencana-instrumen-dan-rubrik.md) | Seluruh yang dinilai sepanjang semester beserta rubriknya, dalam satu tempat |
 
 Lampiran E memuat semua pertanyaan yang mungkin ditanyakan asisten. Ia tidak dirahasiakan karena tidak satu pun dapat dijawab dengan menghafal — semuanya menunjuk ke layar Anda dan menanyakan jaringan Anda sendiri.
 
