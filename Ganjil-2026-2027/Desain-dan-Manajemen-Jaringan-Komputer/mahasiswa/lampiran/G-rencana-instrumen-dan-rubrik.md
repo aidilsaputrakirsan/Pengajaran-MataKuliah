@@ -12,7 +12,8 @@ Rinciannya tetap ada di modul pekan masing-masing; lampiran ini merangkumnya sup
 
 | Komponen | Bobot | Instrumen |
 |---|---:|---|
-| Tugas | 15% | Keaktifan (5%) + Tugas 1–4 (2,5% masing-masing) |
+| Sikap dan Profesionalisme | 5% | Keaktifan dan diskusi |
+| Tugas | 10% | Tugas 1–4, masing-masing 2,5% |
 | Praktikum | 20% | Checkpoint pada sepuluh pekan |
 | UTS | 25% | Ujian praktik individual pekan 8 |
 | UAS | 40% | Presentasi 35% · praktik individual 45% · teori 20% dari komponen ini |
@@ -37,7 +38,7 @@ Skor diubah ke skala 0–100 dengan `(skor − 1) ÷ 3 × 100`, sehingga 1 menja
 
 ## 1. Keaktifan dan Diskusi
 
-**Bobot 5% · Kategori Tugas · Dinilai sepanjang semester**
+**Bobot 5% · Kategori Sikap dan Profesionalisme · Dinilai sepanjang semester**
 
 ### Yang dinilai
 

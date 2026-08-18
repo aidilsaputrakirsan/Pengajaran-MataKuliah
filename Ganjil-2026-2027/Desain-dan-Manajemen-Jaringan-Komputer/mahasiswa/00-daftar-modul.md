@@ -70,6 +70,10 @@ Yang dilarang: menempelkan konfigurasi perangkat jaringan kampus yang sungguhan,
 
 Bobot di dalam setiap Checkpoint: konfigurasi berfungsi 40%, verifikasi dan analisis hasil 25%, dokumentasi 20%, tantangan wajib 15%.
 
+Rincian lengkap apa yang dinilai pada tiap komponen beserta rubriknya ada di [lampiran/G-rencana-instrumen-dan-rubrik.md](lampiran/G-rencana-instrumen-dan-rubrik.md).
+
+**Kehadiran minimum 80%.** Tidak hadir pada salah satu evaluasi blok — UTS atau UAS — menghasilkan nilai akhir maksimal D pada seluruh komponen penilaian.
+
 Praktikum dikerjakan **berpasangan tetapi dinilai individual**: Anda bekerja berdua di satu meja, masing-masing membangun jaringan dengan parameter sendiri. Peran wajib bertukar di pertengahan sesi.
 
 ## Yang dikumpulkan setiap pekan
