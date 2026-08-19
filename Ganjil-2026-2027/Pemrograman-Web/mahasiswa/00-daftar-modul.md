@@ -25,6 +25,7 @@ Baca bagian **Konsep** sebelum sesi praktikum, bukan saat sesi berjalan. Tiga ta
 |---|---|
 | [lampiran/A-glosarium.md](lampiran/A-glosarium.md) | Arti istilah dan padanan Indonesianya, beserta minggu istilah itu muncul |
 | [lampiran/B-repo-latihan-fix.md](lampiran/B-repo-latihan-fix.md) | Repo `kampuslms-broken`, daftar branch per minggu, dan cara mengumpulkan PR |
+| [lampiran/C-rencana-instrumen-dan-rubrik.md](lampiran/C-rencana-instrumen-dan-rubrik.md) | Seluruh yang dinilai sepanjang semester beserta rubriknya, dalam satu tempat |
 
 Rubrik dan pertanyaan interview tidak dirahasiakan — semuanya ada di modul minggu bersangkutan. Tidak satu pun dapat dijawab dengan menghafal, karena semuanya menunjuk ke kode Anda sendiri.
 
