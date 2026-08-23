@@ -91,38 +91,113 @@ Sebagai konsekuensi dari asumsi tanpa prasyarat pemrograman, kelas ini menggunak
 
 ## 3. Capaian Pembelajaran Lulusan (CPL) yang Dititipkan
 
-Karena mata kuliah ini terbuka lintas program studi, CPL yang dirujuk adalah capaian generik jenjang Sarjana (KKNI Level 6).
+Kapita Selekta adalah mata kuliah pilihan bertopik berganti: pengampu dan temanya dapat berbeda tiap semester, sementara **RPS-nya satu dan dipakai bersama**. Karena itu CPL, CPMK, dan Bahan Kajian dirumuskan **netral terhadap topik**. Yang menyesuaikan tiap semester hanyalah Sub-CPMK beserta isian bahan kajiannya.
 
-| Kode | Rumusan Capaian Pembelajaran Lulusan |
+Satu CPL saja, diambil dari daftar CPL Program Studi Sistem Informasi.
+
+| Kode | Rumusan |
 |---|---|
-| **CPL-1** | Mampu merancang dan membangun solusi berbasis kecerdasan buatan generatif secara logis, kritis, dan sistematis untuk menyelesaikan persoalan pada bidang keahliannya. |
-| **CPL-2** | Mampu mengevaluasi keandalan sistem berbasis kecerdasan buatan, mempertimbangkan implikasi etis dan keamanannya, serta mengomunikasikan hasil karyanya secara bertanggung jawab kepada khalayak lintas disiplin. |
+| **CPL-6** | Mampu menghasilkan rekomendasi manajemen dan SI/TI dengan mempertimbangkan keselarasan bisnis dan SI/TI serta mengevaluasi dampak dan penggunaannya untuk mencapai tujuan organisasi |
+
+### Kenapa CPL-6
+
+Tiga alasan, dan ketiganya bertahan meski topik mata kuliah berganti:
+
+**Kata kerjanya sepasang, bukan tunggal.** CPL-6 menuntut *menghasilkan* sekaligus *mengevaluasi dampak dan penggunaannya*. Itu persis bentuk Kapita Selekta: mahasiswa membangun sesuatu, lalu menilai keandalan dan risikonya. CPL yang hanya menuntut satu kata kerja akan menyisakan separuh mata kuliah tanpa payung.
+
+**Frasa "keselarasan bisnis dan SI/TI ... tujuan organisasi" menjaga arahnya tetap Sistem Informasi.** Inilah yang diminta koordinator prodi — generik, tetapi tidak melayang ke ranah teknik murni.
+
+**Tidak berbenturan dengan mata kuliah lain.** CPL-8 sudah dipakai Pemrograman Web dan CPL-9 oleh DMJK. Memakai CPL-6 memperluas cakupan CPL yang terlayani kurikulum, bukan menumpuk di CPL yang sama.
+
+### Yang ditimbang dan tidak dipilih
+
+Daftar CPL prodi terbagi dua: **CPL-1 sampai 5** bersifat generik lintas bidang, **CPL-6 sampai 10** bersifat teknis Sistem Informasi.
+
+| CPL | Kenapa tidak dipilih |
+|:--:|---|
+| 1 — komunikasi efektif | Terlayani sebagai bagian dari CPMK, tetapi terlalu sempit untuk menaungi seluruh mata kuliah |
+| 2 — berpikir kritis dan penyelesaian masalah kompleks | Sangat cocok dan netral topik, tetapi generik lintas bidang — koordinator prodi meminta arah Sistem Informasi |
+| 3 — kolaborasi tim multidisiplin | Kelas ini dinilai individual; kerja tim bukan bentuk pokoknya |
+| 4 — nilai Pancasila, etika, tanggung jawab profesional | Terlayani lewat kajian risiko, tetapi hanya sebagian mata kuliah |
+| 5 — belajar mandiri sepanjang hayat | Pasangan alami untuk mata kuliah bertopik berganti; kandidat terkuat **bila** prodi mengizinkan CPL kedua |
+| 7 — analisis data | Terikat pengolahan data, cocok hanya bila topik semester kebetulan analitik |
+| 8 — membangun sistem informasi | Menuntut metodologi pengembangan dan alat pemodelan yang belum tentu diajarkan topik lain; sudah dipakai Pemrograman Web |
+| 10 — manajemen proyek SI | Berbicara tentang mengelola proyek, bukan menghasilkan solusinya |
+
+**CPL-2 dan CPL-5 adalah pesaing terdekat.** Keduanya netral topik secara bawaan — justru itu kekuatannya untuk mata kuliah bertopik berganti. Yang membuat CPL-6 menang adalah arahan koordinator prodi agar rumusan condong ke Sistem Informasi, dan CPL-2 maupun CPL-5 tidak menyebut SI/TI sama sekali. Kalau suatu saat prodi mengizinkan dua CPL dititipkan, **CPL-5** adalah tambahan yang paling masuk akal.
+
+Kalau prodi menghendaki kata kerja "membangun" tampil eksplisit, **CPL-8** adalah alternatif terdekat — dengan konsekuensi rumusannya menuntut metodologi dan pemodelan sistem yang harus benar-benar diajarkan tiap semester.
 
 ---
 
 ## 4. Capaian Pembelajaran Mata Kuliah (CPMK)
 
-| Kode | Rumusan CPMK | CPL |
+Satu CPMK, seperti pada DMJK dan Pemrograman Web.
+
+| Kode | Rumusan | CPL |
 |---|---|:--:|
-| **CPMK-1** | Mahasiswa mampu **merancang dan merakit** produk berbasis kecerdasan buatan generatif — mulai dari pengendalian keluaran model, grounding pada sumber pengetahuan yang sahih, hingga perakitan AI Agent — untuk menyelesaikan persoalan nyata pada bidang keilmuannya. (C6) | CPL-1 |
-| **CPMK-2** | Mahasiswa mampu **mengevaluasi** kualitas, keandalan, biaya, serta risiko etis dan keamanan sistem kecerdasan buatan yang dibangunnya, dan **mengomunikasikan** rancangan beserta hasil evaluasinya secara profesional. (C5) | CPL-2 |
+| **CPMK-1** | Mahasiswa mampu menerapkan teknologi, kerangka kerja, atau paradigma mutakhir pada domain keilmuan Sistem Informasi untuk menjawab kebutuhan organisasi, serta mengevaluasi kesesuaian, dampak, risiko, dan implikasi etis penerapannya dan mengomunikasikannya secara bertanggung jawab kepada khalayak lintas disiplin. **(C5)** | CPL-6 |
+
+Tidak satu pun kata dalam rumusan itu terikat pada kecerdasan buatan. Semester dengan topik Business Intelligence, Enterprise Architecture, atau apa pun dapat memakainya apa adanya — yang berganti cukup Sub-CPMK-nya.
+
+Rumusannya sengaja menggemakan kosakata CPL-6: *menghasilkan rekomendasi SI/TI* → "menerapkan ... untuk menjawab kebutuhan organisasi"; *keselarasan bisnis dan SI/TI* → "pada domain keilmuan Sistem Informasi"; *mengevaluasi dampak dan penggunaannya* → "mengevaluasi kesesuaian, dampak, risiko, dan implikasi etis penerapannya". Penelusuran CPMK ke CPL dapat ditunjukkan kata per kata, bukan sekadar diklaim.
+
+### Kenapa C5, bukan C6
+
+Tiga alasan, dan yang ketiga yang paling mengikat.
+
+**Beban 2 SKS.** Menempatkan puncak di C6 berarti menuntut tiap mahasiswa mencipta artefak utuh dalam 100 menit tatap muka per minggu. Untuk mata kuliah pengayaan tanpa prasyarat, itu terlalu tinggi sebagai janji kurikulum.
+
+**Arah yang terbaca dari penyelenggaraan sebelumnya** adalah *menerapkan* teknologi terkini pada domain keilmuan Sistem Informasi — bukan menciptakan teknologi barunya. Kata kerja "menerapkan" (C3) menjadi lantai, dan "mengevaluasi" (C5) menjadi puncak.
+
+**RPS ini dipakai bersama.** CPMK harus dapat dicapai oleh penyelenggaraan yang paling sedikit membangun, bukan hanya oleh semester yang kebetulan berbasis produk. Semester bertopik kerangka kerja atau paradigma mungkin sama sekali tidak menghasilkan artefak yang dibangun — tetapi tetap dapat menerapkan, menguji kesesuaian, dan mengevaluasi dampaknya. C5 menampung keduanya; C6 hanya menampung yang membangun.
+
+Konsekuensinya untuk semester ini: Sub-CPMK-4 diberi label **C5**, bukan C6. Yang dinilai pada perakitan AI Agent memang keputusan rancangannya — batas kewenangan, guardrails, kapan manusia dilibatkan — bukan keberhasilan mengetik kodenya. Sub-CPMK tidak boleh melampaui level CPMK yang menaunginya, dan dengan C5 seluruh rantainya sah.
+
+### Kenapa bukan hanya "teknologi"
+
+Rumusan menyebut **teknologi, kerangka kerja, atau paradigma**. Kapita Selekta di Sistem Informasi tidak selalu berarti perkakas baru — ia bisa berarti cara berpikir baru: arsitektur enterprise, metodologi tata kelola, pendekatan berbasis data, atau paradigma perancangan. Mengunci rumusan pada kata "teknologi" akan memaksa semester bertopik kerangka kerja menuliskan RPS yang tidak jujur.
 
 ### Peta CPL–CPMK–Sub-CPMK
 
-| Sub-CPMK | Rumusan Ringkas | CPMK | CPL |
+Keenam Sub-CPMK berikut adalah **instansiasi semester Ganjil 2026/2027 dengan topik AI Engineering**, dan boleh diganti seluruhnya bila pengampu atau topiknya berubah.
+
+| Sub-CPMK | Rumusan Ringkas | Taksonomi | Minggu |
 |:--:|---|:--:|:--:|
-| Sub-CPMK-1 | Menjelaskan lanskap AI generatif dan karakteristik operasional model bahasa besar | CPMK-1 | CPL-1 |
-| Sub-CPMK-2 | Mengendalikan keluaran model melalui instruksi terstruktur, keluaran berformat, dan pemanggilan tool | CPMK-1 | CPL-1 |
-| Sub-CPMK-3 | Membumikan sistem pada sumber pengetahuan sahih melalui alur *Retrieval-Augmented Generation* | CPMK-1 | CPL-1 |
-| Sub-CPMK-4 | Merancang dan merakit AI Agent dengan penalaran bertahap, tool, memori, dan guardrails | CPMK-1 | CPL-1 |
-| Sub-CPMK-5 | Mengevaluasi kualitas, keandalan, dan efisiensi biaya sistem secara sistematis | CPMK-2 | CPL-2 |
-| Sub-CPMK-6 | Menilai risiko etis dan keamanan serta mengomunikasikan karya secara bertanggung jawab | CPMK-2 | CPL-2 |
+| Sub-CPMK-1 | Menjelaskan lanskap AI generatif dan karakteristik operasional model bahasa besar | C2 · A2 · P2 | 1–3 |
+| Sub-CPMK-2 | Mengendalikan keluaran model melalui instruksi terstruktur, keluaran berformat, dan pemanggilan tool | C3 · A3 · P3 | 4–6 |
+| Sub-CPMK-3 | Membumikan sistem pada sumber pengetahuan sahih melalui alur *Retrieval-Augmented Generation* | C4 · A3 · P3 | 7–9 |
+| Sub-CPMK-4 | Merancang dan merakit AI Agent dengan penalaran bertahap, tool, memori, dan guardrails | C5 · A4 · P4 | 10–13 |
+| Sub-CPMK-5 | Mengevaluasi kualitas, keandalan, dan efisiensi biaya sistem secara sistematis | C5 · A4 · P4 | 14–15 |
+| Sub-CPMK-6 | Menilai risiko etis dan keamanan serta mengomunikasikan karya secara bertanggung jawab | C5 · A5 · P4 | 15–16 |
+
+Seluruhnya bermuara pada CPMK-1, dan tidak satu pun melampaui level C5 yang menaunginya. Tingkat kognitifnya menanjak C2 → C3 → C4 → C5 → C5 → C5: memahami mesinnya, menerapkan kendali, menganalisis alur pengetahuan, lalu tiga tahap yang seluruhnya menuntut penilaian — atas rancangan agen, atas keandalan sistem, dan atas risiko serta etikanya.
+
+Tiap Sub-CPMK memuat tepat satu taksonomi kognitif, satu afektif, dan satu psikomotorik — sesuai batas yang diberlakukan borang SIMKUR.
 
 ---
 
 ## 5. Bahan Kajian
 
-Materi disusun dalam lima blok yang saling membangun.
+Lima bahan kajian, dirumuskan pendek sebagai **kategori fungsional** dan bukan sebagai topik. Inilah yang membuat satu RPS dapat dipakai bersama: topik apa pun mengisi kelima kategori yang sama.
+
+| # | Bahan Kajian | Study Material | Sub-CPMK | Diisi semester ini dengan |
+|:--:|---|---|:--:|---|
+| 1 | Lanskap Teknologi Mutakhir | Emerging Technology Landscape | 1 | Blok A — fondasi model bahasa besar |
+| 2 | Analisis Kebutuhan dan Perancangan | Requirements Analysis and Design | 2, 3 | Lembar tema minggu 4; Blok B kendali dan Blok C grounding |
+| 3 | Purwarupa dan Implementasi | Prototyping and Implementation | 4 | Blok D — perakitan AI Agent |
+| 4 | Evaluasi dan Pengujian | Evaluation and Testing | 5 | Blok E — laporan evaluasi dan set uji |
+| 5 | Risiko, Etika, dan Komunikasi | Risk, Ethics, and Communication | 6 | Kajian risiko minggu 15; presentasi UTS dan pertanggungjawaban UAS |
+
+Kolom kanan berganti tiap semester; kolom tengah tidak.
+
+Bahan kajian 3 dibaca luas: **purwarupa, implementasi, atau studi penerapan**. Semester bertopik kerangka kerja atau paradigma mungkin tidak menghasilkan artefak yang dibangun — dan tetap dapat mengisinya dengan studi penerapan pada organisasi nyata.
+
+**Lima, bukan tujuh.** Kepadatannya 2,5 bahan kajian per SKS, di antara DMJK (1,5) dan Pemrograman Web (3,0). Versi tujuh sebelumnya mencapai 3,5 per SKS — lebih padat daripada mata kuliah 4 SKS, dan itu tidak sepadan untuk mata kuliah pengayaan 2 SKS.
+
+### Instansiasi Semester Ini — AI Engineering
+
+Rincian materi kelima blok yang mengisi ketujuh bahan kajian di atas.
 
 ### Blok A — Fondasi: Memahami Mesinnya
 - Lanskap AI generatif dan posisi AI Engineering terhadap Data Science, Machine Learning, dan Rekayasa Perangkat Lunak

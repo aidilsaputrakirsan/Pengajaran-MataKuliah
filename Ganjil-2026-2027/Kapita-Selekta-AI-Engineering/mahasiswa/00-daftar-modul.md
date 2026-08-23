@@ -29,6 +29,7 @@ Baca bagian **Konsep** *sebelum* pertemuan. Tatap muka hanya 100 menit per mingg
 | [lampiran/E-bank-pertanyaan-pertanggungjawaban.md](lampiran/E-bank-pertanyaan-pertanggungjawaban.md) | Seluruh pertanyaan yang mungkin diajukan saat UTS dan UAS, dibagikan terbuka |
 | [lampiran/F-panduan-tool.md](lampiran/F-panduan-tool.md) | Penyiapan lingkungan kerja, model gateway, dan pengendalian biaya |
 | [lampiran/G-glosarium.md](lampiran/G-glosarium.md) | Padanan istilah Inggris dan Indonesia, serta di minggu mana tiap istilah diperkenalkan |
+| [lampiran/H-rencana-instrumen-dan-rubrik.md](lampiran/H-rencana-instrumen-dan-rubrik.md) | Seluruh yang dinilai sepanjang semester beserta rubriknya, dalam satu tempat |
 
 Lampiran E memuat semua pertanyaan pertanggungjawaban. Ia tidak dirahasiakan karena tidak satu pun dapat dijawab dengan menghafal — semuanya menunjuk ke produk Anda sendiri dan menanyakan keputusan yang Anda ambil di dalamnya.
 
