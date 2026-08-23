@@ -78,7 +78,7 @@ Yang dikumpulkan: tabel subnet lengkap (alamat jaringan, rentang host, broadcast
 | 76–85 | Desain baik dan efisien, dokumentasi sebagian |
 | 66–75 | Desain logis dan cukup efisien |
 | 56–65 | Desain dasar, ruang alamat terbuang banyak |
-| 51–56 | Desain tidak logis atau perhitungan tidak konsisten |
+| 51–55 | Desain tidak logis atau perhitungan tidak konsisten |
 
 ---
 
@@ -100,7 +100,7 @@ Yang dikumpulkan: `nusantaranet-<NIM>-p4.pkt` · `konfigurasi-p4.txt` hasil `sho
 | 76–85 | Seluruh fungsi berjalan dengan baik dan terverifikasi |
 | 66–75 | Fungsi utama berjalan |
 | 56–65 | Sebagian berfungsi |
-| 51–56 | Konfigurasi error atau tidak dapat diuji |
+| 51–55 | Konfigurasi error atau tidak dapat diuji |
 
 Klaim "sudah berfungsi" tanpa keluaran perintah pemeriksaan tidak dinilai sebagai berfungsi.
 
@@ -234,7 +234,7 @@ Materi ini tidak dipraktikkan di Packet Tracer karena tidak didukung. Yang dinil
 | 76–85 | Beralasan dan berpijak pada jaringan sendiri |
 | 66–75 | Putusan beralasan, sebagian masih generik |
 | 56–65 | Putusan tanpa alasan konkret |
-| 51–56 | Mengulang uraian modul |
+| 51–55 | Mengulang uraian modul |
 
 **Putusan "tidak relevan" yang beralasan bernilai sama tinggi dengan putusan "terapkan sekarang".** Tugas yang menyatakan kelima teknologi perlu diterapkan segera hampir pasti tidak dikerjakan berdasarkan keadaan jaringan mana pun, dan akan dinilai rendah.
 
@@ -256,7 +256,7 @@ Dokumen rancangan jaringan enterprise maksimal 12 halaman, disusun tim, beserta 
 | 76–85 | Keputusan desain dijustifikasi |
 | 66–75 | Menjawab batasan skenario, asumsi ditulis lengkap |
 | 56–65 | Rancangan generik, asumsi tidak ditulis |
-| 51–56 | Tidak menjawab batasan khusus skenario |
+| 51–55 | Tidak menjawab batasan khusus skenario |
 
 ---
 

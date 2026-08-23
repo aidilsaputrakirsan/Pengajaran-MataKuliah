@@ -27,6 +27,8 @@ Seluruh yang dinilai sepanjang semester, beserta rubriknya, dikumpulkan di satu 
 
 Seluruh instrumen diisi pada skala **0–100**. Nilai 0 khusus untuk komponen yang gugur — berbeda dari nilai rendah.
 
+**Setiap rentang pada rubrik di dokumen ini memakai ambang yang sama dengan tabel di bawah.** Tidak ada rubrik yang memakai pita sendiri, sehingga nilai rubrik dan nilai huruf tidak pernah bertentangan.
+
 | Nilai angka | Huruf |
 |---|---|
 | 86 ≤ N ≤ 100 | A |
@@ -43,14 +45,16 @@ Seluruh instrumen diisi pada skala **0–100**. Nilai 0 khusus untuk komponen ya
 
 **Dipakai pada seluruh Tugas dan luaran Proyek.** Empat aspek dengan bobot tetap:
 
-| Aspek | Bobot | Sangat Baik (85–100) | Cukup (65–84) | Kurang (<65) |
-|---|:--:|---|---|---|
-| Rancangan dan alasannya | 35% | Setiap keputusan berlasan; alternatif yang ditolak disebutkan | Keputusan benar, sebagian tanpa alasan | Meniru contoh tanpa pemahaman |
-| Bukti sistem bekerja | 25% | Bukti lengkap dengan masukan yang dipakai; kegagalan ikut dilaporkan | Bukti ada, hanya kasus ideal | Klaim tanpa bukti |
-| Catatan proses | 25% | Prediksi terisi lebih dulu; penggunaan AI terlacak; kejujuran terlihat | Terisi lengkap tetapi dangkal | Diisi formalitas |
-| Tantangan wajib | 15% | Tercapai, atau gagal dengan analisis yang tajam | Dicoba, analisis dangkal | Tidak dikerjakan |
+| Aspek | Bobot | Sangat Baik · 86–100 (A) | Baik · 76–85 (AB) | Cukup · 66–75 (B) | Kurang · di bawah 66 |
+|---|:--:|---|---|---|---|
+| Rancangan dan alasannya | 35% | Setiap keputusan berlasan; alternatif yang ditolak disebutkan | Keputusan berlasan, alternatif belum disebut | Keputusan benar, sebagian tanpa alasan | Meniru contoh tanpa pemahaman |
+| Bukti sistem bekerja | 25% | Bukti lengkap dengan masukan yang dipakai; kegagalan ikut dilaporkan | Bukti lengkap, kegagalan belum dilaporkan | Bukti ada, hanya kasus ideal | Klaim tanpa bukti |
+| Catatan proses | 25% | Prediksi terisi lebih dulu; penggunaan AI terlacak; kejujuran terlihat | Terisi lengkap dan tertelusur, refleksinya tipis | Terisi lengkap tetapi dangkal | Diisi formalitas |
+| Tantangan wajib | 15% | Tercapai, atau gagal dengan analisis yang tajam | Tercapai tanpa analisis mendalam | Dicoba, analisis dangkal | Tidak dikerjakan |
 
 Bobot 35% pada rancangan bukan kebetulan: mata kuliah ini tidak mensyaratkan kemampuan pemrograman, sehingga yang dinilai adalah ketepatan berpikir, bukan kefasihan menulis kode.
+
+**Rentang keempat tingkat itu persis batas skala nilai yang berlaku** — 86, 76, dan 66 adalah ambang A, AB, dan B. Pita "di bawah 66" tidak dipilah lebih lanjut di rubrik ini; angka yang Anda tulis sendiri yang menentukan apakah ia jatuh di BC (56–65), C (51–55), D (41–50), atau E (di bawah 41).
 
 ---
 
@@ -76,7 +80,15 @@ Lima butir, masing-masing dinilai 0 / 1 / 2:
 | 4 | Daftar periksa jujur | Selalu penuh tanpa jejak perbaikan | Sebagian | Jujur, yang tertinggal dikejar minggu berikut |
 | 5 | Bagian "yang macet" konkret | "Masih bingung" | Disebut tanpa upaya | Konkret, dengan upaya dan dugaan |
 
-Skor 8–10 sangat baik · 5–7 cukup · di bawah 5 kurang.
+Skor mentah 0–10 dikonversi ke skala nilai yang berlaku:
+
+| Skor mentah | Nilai | Huruf |
+|:--:|---|:--:|
+| 9–10 | 86–100 | A |
+| 8 | 76–85 | AB |
+| 6–7 | 66–75 | B |
+| 4–5 | 56–65 | BC |
+| 0–3 | di bawah 56 | C ke bawah |
 
 Catatan proses yang memuat penggunaan AI tidak dilaporkan dinilai **0** untuk minggu itu.
 
@@ -360,11 +372,12 @@ Refleksi tertulis atas perjalanan satu semester. Salah satu pertanyaannya: **kes
 
 ### Rubrik
 
-| Nilai | Ciri |
-|---|---|
-| 86–100 | Menyebut kesalahan konkret yang tidak tertangkap, beserta bagaimana Anda menemukannya belakangan |
-| 66–85 | Refleksi jujur tetapi umum |
-| di bawah 66 | Menjawab "tidak ada" — dinilai rendah sebagai tanda kurangnya kesadaran diri, bukan sebagai bukti karya sempurna |
+| Nilai | Huruf | Ciri |
+|---|:--:|---|
+| 86–100 | A | Menyebut kesalahan konkret yang tidak tertangkap, beserta bagaimana Anda menemukannya belakangan |
+| 76–85 | AB | Menyebut kesalahan konkret, tanpa menelusuri bagaimana ia lolos |
+| 66–75 | B | Refleksi jujur tetapi umum |
+| di bawah 66 | BC ke bawah | Menjawab "tidak ada" — dinilai rendah sebagai tanda kurangnya kesadaran diri, bukan sebagai bukti karya sempurna |
 
 ---
 
