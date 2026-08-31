@@ -100,7 +100,7 @@ Catatan proses yang memuat penggunaan AI tidak dilaporkan dinilai **0** untuk mi
 
 ### Yang dinilai
 
-Bertanya berformat dan menjawab pertanyaan rekan di forum kelas. Bukan jumlah komentar, melainkan apakah pertanyaan Anda menyertakan apa yang sudah dicoba, dan apakah jawaban Anda menunjuk penyebab alih-alih memberi potongan untuk disalin.
+Bertanya berformat dan menjawab pertanyaan rekan di forum kelas. Bukan jumlah komentar, tapi apakah pertanyaan Anda menyertakan apa yang sudah dicoba, dan apakah jawaban Anda menunjuk penyebab alih-alih memberi potongan untuk disalin.
 
 ### Rubrik
 
@@ -133,7 +133,7 @@ Yang dinilai pada setiap soal adalah **alasannya**, bukan kesimpulannya.
 | Kesimpulan benar dengan alasan yang kuat dan konsisten | Penuh |
 | Kesimpulan **berbeda** dari kunci, tetapi alasannya kuat dan konsisten | Penuh |
 | Kesimpulan benar tanpa alasan | Separuh |
-| Kesimpulan benar dengan alasan yang keliru | Separuh |
+| Kesimpulan benar dengan alasan yang salah | Separuh |
 | Tidak dijawab atau alasan tidak nyambung | Nol |
 
 Baris kedua bukan kelonggaran. Sebagian besar persoalan AI Engineering tidak punya jawaban tunggal; yang diuji adalah apakah Anda dapat mempertahankan pilihan.
@@ -405,4 +405,4 @@ Tidak berskor, tetapi menentukan apakah luaran minggu berikutnya dapat dinilai. 
 | **DITERIMA DENGAN PERBAIKAN** | Lanjut, perbaikan dikumpulkan paling lambat minggu 6 |
 | **DITOLAK** | Tema diganti sebelum minggu 5 |
 
-Yang membuat tema ditolak: persoalannya deterministik dan selalu dapat ditentukan pasti dari aturan · tidak ada yang dapat menilai keluarannya benar atau keliru · memakai data pribadi orang sungguhan.
+Yang membuat tema ditolak: persoalannya deterministik dan selalu dapat ditentukan pasti dari aturan · tidak ada yang dapat menilai keluarannya benar atau salah · memakai data pribadi orang sungguhan.

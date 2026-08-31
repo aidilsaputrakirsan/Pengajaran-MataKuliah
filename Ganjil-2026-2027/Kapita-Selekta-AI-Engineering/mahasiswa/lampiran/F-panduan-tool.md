@@ -22,7 +22,7 @@ Anda **tidak** membutuhkan: komputer berspesifikasi tinggi, kartu grafis, server
 
 ## 2. Urutan penyiapan Minggu 3
 
-Kerjakan berurutan. Bila satu langkah gagal, jangan lanjut — pakai pola **F1 — Pembaca error** pada Lampiran A.
+Kerjakan berurutan. Kalau satu langkah gagal, jangan lanjut — pakai pola **F1 — Pembaca error** pada Lampiran A.
 
 ```
 1. Buat repositori pribadi untuk produk Anda (tidak publik).
@@ -37,7 +37,7 @@ Kerjakan berurutan. Bila satu langkah gagal, jangan lanjut — pakai pola **F1 �
 
 Langkah 2 dikerjakan **sebelum** langkah 4, bukan sesudah. File rahasia yang sudah terlanjur terunggah tetap terekam pada riwayat repositori meskipun kemudian dihapus.
 
-### Bila Anda benar-benar belum pernah memrogram
+### Kalau Anda benar-benar belum pernah memrogram
 
 Itu diasumsikan, bukan kekurangan. Tiga saran:
 
@@ -49,7 +49,7 @@ Itu diasumsikan, bukan kekurangan. Tiga saran:
 
 ## 3. Aturan kredensial
 
-Tiga aturan yang tidak dapat ditawar:
+Tiga aturan yang berlaku sepanjang semester:
 
 1. API key **tidak pernah** ditulis di dalam file kode.
 2. API key **tidak pernah** ikut terunggah ke repositori.
@@ -57,7 +57,7 @@ Tiga aturan yang tidak dapat ditawar:
 
 Aturan ketiga paling sering dilanggar. Sebelum menempel pesan error, tutupi kuncinya.
 
-**Bila kunci Anda terlanjur terunggah atau tertempel:** laporkan kepada dosen hari itu juga agar kunci dicabut dan diganti. Melaporkan tidak mengurangi nilai. Menyembunyikan, lalu ketahuan pada pemeriksaan Minggu 15, ditangani sebagai pelanggaran etika profesi.
+**Kalau kunci Anda terlanjur terunggah atau tertempel:** laporkan kepada dosen hari itu juga agar kunci dicabut dan diganti. Melaporkan tidak mengurangi nilai. Menyembunyikan, lalu ketahuan pada pemeriksaan Minggu 15, ditangani sebagai pelanggaran etika profesi.
 
 ---
 
@@ -65,7 +65,7 @@ Aturan ketiga paling sering dilanggar. Sebelum menempel pesan error, tutupi kunc
 
 ### Kebijakan kelas
 
-Anggaran ditetapkan di awal semester dan dikelola melalui model gateway dengan batas terpasang. **Tidak ada mahasiswa yang dirugikan karena keterbatasan biaya**; alternatif tanpa biaya selalu disediakan. Bila anggaran Anda menipis sebelum semester berakhir, sampaikan sebelum habis — bukan setelah.
+Anggaran ditetapkan di awal semester dan dikelola melalui model gateway dengan batas terpasang. **Tidak ada mahasiswa yang dirugikan karena keterbatasan biaya**; alternatif tanpa biaya selalu disediakan. Kalau anggaran Anda menipis sebelum semester berakhir, sampaikan sebelum habis — bukan setelah.
 
 ### Kebiasaan yang menghemat besar
 
@@ -80,7 +80,7 @@ Anggaran ditetapkan di awal semester dan dikelola melalui model gateway dengan b
 
 ### Berjalan tanpa biaya sama sekali
 
-Bila anggaran habis atau Anda memilih tidak memakai model berbayar, hal berikut tetap dapat dikerjakan penuh: seluruh tahap AMATI, seluruh perancangan instruksi dan skema, seluruh rancangan RAG, seluruh analisis workflow-vs-agen, seluruh kajian risiko dan etika, dan penyusunan set uji.
+Kalau anggaran habis atau Anda memilih tidak memakai model berbayar, hal berikut tetap dapat dikerjakan penuh: seluruh tahap AMATI, seluruh perancangan instruksi dan skema, seluruh rancangan RAG, seluruh analisis workflow-vs-agen, seluruh kajian risiko dan etika, dan penyusunan set uji.
 
 Yang membutuhkan pemanggilan model — tahap PATAHKAN, PERBAIKI, dan pengujian — dijalankan pada model bertarif rendah atau tanpa biaya yang tersedia lewat model gateway. Sampaikan kepada dosen agar dialokasikan. **Tidak ada penurunan nilai** karena memakai model murah; laporan evaluasi yang jujur tentang keterbatasan model murah justru bernilai penuh.
 
@@ -111,7 +111,7 @@ Kelas ini tidak memiliki asisten. Saluran bantuan utama adalah **forum kelas**, 
 
 ### Aturan tiga puluh menit
 
-Bila macet, coba mandiri **30 menit** sebelum bertanya. Dalam tiga puluh menit itu, kerjakan berurutan:
+Kalau macet, coba mandiri **30 menit** sebelum bertanya. Dalam tiga puluh menit itu, kerjakan berurutan:
 
 1. Baca ulang pesan error sampai kalimat terakhir — jawabannya sering di situ
 2. Pakai pola **F1 — Pembaca error**
@@ -120,7 +120,7 @@ Bila macet, coba mandiri **30 menit** sebelum bertanya. Dalam tiga puluh menit i
 
 ### Format bertanya
 
-Pertanyaan yang tidak memakai format ini tidak dijawab:
+Pakai format ini supaya pertanyaan Anda bisa dijawab cepat:
 
 ```
 JUDUL   : <gejala dalam satu kalimat>
@@ -165,4 +165,4 @@ Menjawab pertanyaan rekan di forum dihitung sebagai komponen **Sikap dan Profesi
 - [ ] `catatan-pemakaian.md` ada dan terisi
 - [ ] Kode peserta K dicatat dan angka lingkup dihitung
 - [ ] Tiga calon persoalan tertulis lengkap
-- [ ] Anda tahu ke mana bertanya bila macet, dan formatnya
+- [ ] Anda tahu ke mana bertanya kalau macet, dan formatnya

@@ -8,11 +8,11 @@ Catatan proses dikumpulkan **setiap minggu**, maksimal 2 halaman. Ia bernilai 25
 
 ## Mengapa catatan proses bernilai sebesar itu
 
-Kelas ini tidak memiliki asisten. Tidak ada yang mengamati Anda bekerja, tidak ada yang mencatat bahwa Anda mencoba tiga pendekatan sebelum yang keempat berhasil. **Yang tidak tercatat dianggap tidak terjadi.**
+Kelas ini tidak memiliki asisten. Tidak ada yang mengamati Anda bekerja, tidak ada yang mencatat bahwa Anda mencoba tiga pendekatan sebelum yang keempat berhasil. **Catatan ini adalah satu-satunya tempat kerja itu terlihat** — dan justru tiga percobaan yang gagal itulah bagian yang paling bernilai di sini.
 
 Catatan proses juga satu-satunya bukti bahwa penggunaan AI Anda transparan. Karya bagus tanpa catatan proses tidak dapat dibedakan dari karya yang seluruhnya dihasilkan orang atau alat lain, dan diperlakukan sesuai ketidakjelasan itu.
 
-Yang dinilai bukan kerapian bahasanya, melainkan **kejujuran dan ketelusurannya**.
+Yang dinilai bukan kerapian bahasanya, tapi **kejujuran dan ketelusurannya**.
 
 ---
 
@@ -109,7 +109,7 @@ Rencana konkret minggu depan :
 
 **Panjang.** Maksimal 2 halaman. Catatan yang lebih panjang tidak dibaca melebihi halaman kedua. Menulis padat adalah bagian dari keterampilan yang dinilai.
 
-**Bagian 3.** Kolom prediksi diisi **sebelum** percobaan dijalankan. Catatan yang seluruh prediksinya tepat pada setiap minggu akan ditanyakan pada UTS — bukan sebagai tuduhan, melainkan karena orang yang benar-benar dapat memprediksi seluruhnya punya pemahaman yang layak digali.
+**Bagian 3.** Kolom prediksi diisi **sebelum** percobaan dijalankan. Isinya tidak dinilai benar atau salah — yang dinilai adalah bahwa ia ditulis lebih dulu. Prediksi yang meleset dan dicatat apa adanya adalah bahan paling berguna di catatan proses Anda, karena di situ terlihat pemahaman Anda berubah.
 
 **Bagian 7.** Ini bagian yang paling sering diisi seadanya dan paling banyak berpengaruh pada komponen Sikap dan Profesionalisme. Kolom "yang saya ubah" yang selalu berisi "tidak ada" berarti Anda menempelkan hasil AI tanpa menilai — dan itu justru yang dilarang mata kuliah ini.
 
@@ -124,5 +124,5 @@ Rencana konkret minggu depan :
 | 2 · Yang mengejutkan | "Ternyata modelnya pintar" | "Saya kira menaikkan jumlah chunk dari 3 ke 10 pasti memperbaiki jawaban. Ternyata tiga kasus justru memburuk karena chunk tak relevan mengaburkan yang benar" |
 | 5 · Keputusan | "Saya pakai chunk 500 kata" | "Saya pakai chunking per pasal, bukan per jumlah huruf, karena dokumen saya berupa peraturan yang satu pasalnya adalah satu gagasan utuh. Saya tolak chunking tetap karena mencoba ini pada dua pasal panjang dan konteksnya terpotong di tengah ketentuan" |
 | 7 · Yang saya ubah | "tidak ada" | "AI memberi skema dengan medan `confidence` berupa angka 0–1. Saya ubah jadi tiga tingkat karena angka itu tidak terkalibrasi dan saya tidak punya cara memverifikasinya" |
-| 7 · Yang keliru | "tidak ada" | "AI menyatakan pustaka X memiliki fungsi Y. Fungsi itu tidak ada. Saya temukan setelah error, lalu memeriksa dokumentasi resminya" |
+| 7 · Yang salah | "tidak ada" | "AI menyatakan pustaka X memiliki fungsi Y. Fungsi itu tidak ada. Saya temukan setelah error, lalu memeriksa dokumentasi resminya" |
 | 10 · Yang macet | "masih bingung" | "Retrieval gagal pada pertanyaan yang memakai istilah lokal. Sudah saya coba: menambah jumlah chunk, mengganti kata kunci, memperbesar tumpang tindih. Dugaan saya masalahnya pada embedding untuk istilah non-baku. Minggu depan saya coba menambahkan daftar padanan istilah" |

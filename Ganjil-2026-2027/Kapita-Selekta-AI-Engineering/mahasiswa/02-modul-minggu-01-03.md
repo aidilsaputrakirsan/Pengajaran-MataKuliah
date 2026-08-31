@@ -13,7 +13,7 @@
 
 Tiga minggu pertama tidak menghasilkan produk apa pun. Yang dihasilkan adalah kemampuan menjawab satu pertanyaan yang akan menghantui seluruh semester: **kapan model bahasa besar merupakan jawaban yang tepat, dan kapan ia adalah alat yang salah.**
 
-Mahasiswa yang melewatkan blok ini akan membangun sesuatu yang terlihat bekerja, gagal di Minggu 14 saat dievaluasi, dan tidak tahu mengapa.
+Tanpa jawaban itu, sangat mungkin Anda membangun sesuatu yang terlihat bekerja sepanjang semester, lalu goyah begitu dievaluasi di Minggu 14 — dan tidak punya cara menjelaskan kenapa. Tiga minggu ini yang mencegahnya.
 
 Contoh angka di modul ini memakai **K = 7**. Kode peserta Anda berbeda.
 
@@ -47,18 +47,18 @@ Seluruh mata kuliah ini adalah tentang tiga hal yang masih dapat Anda kendalikan
 
 Dalam pemrograman biasa, Anda menulis aturan dan mesin menjalankannya persis. Dalam AI Engineering, Anda menulis *maksud* dan mesin menafsirkannya — kadang tepat, kadang tidak, dan tafsir yang sama bisa berbeda pada percobaan berikutnya.
 
-Konsekuensi yang paling sering diabaikan pemula: **sistem Anda tidak dapat dinyatakan "benar", hanya "cukup andal untuk penggunaan tertentu".** Karena itu evaluasi bukan tahap terakhir yang dikerjakan bila sempat, melainkan syarat agar klaim apa pun tentang sistem Anda bermakna.
+Konsekuensi yang paling sering diabaikan pemula: **sistem Anda tidak dapat dinyatakan "benar", hanya "cukup andal untuk penggunaan tertentu".** Karena itu evaluasi bukan tahap terakhir yang dikerjakan kalau sempat, tapi syarat agar klaim apa pun tentang sistem Anda bermakna.
 
 ### Kapan model bahasa besar adalah alat yang salah
 
 Empat tanda bahwa Anda tidak membutuhkannya:
 
 1. **Jawabannya pasti.** Menghitung pajak, memvalidasi format NIM, mengurutkan data. Aturan biasa lebih murah, lebih cepat, dan tidak pernah salah.
-2. **Kesalahan tidak dapat ditoleransi sama sekali.** Bila satu jawaban keliru berakibat fatal dan tidak ada manusia yang memeriksa, model bahasa bukan pilihan.
-3. **Tidak ada cara memeriksa keluarannya.** Bila tidak seorang pun dapat menilai jawabannya benar, Anda membangun mesin penghasil keyakinan palsu.
+2. **Kesalahan tidak dapat ditoleransi sama sekali.** Kalau satu jawaban salah berakibat fatal dan tidak ada manusia yang memeriksa, model bahasa bukan pilihan.
+3. **Tidak ada cara memeriksa keluarannya.** Kalau tidak seorang pun dapat menilai jawabannya benar, Anda membangun mesin penghasil keyakinan palsu.
 4. **Datanya terlalu kecil dan terstruktur.** Sepuluh baris tabel tidak butuh retrieval; ia butuh tabel.
 
-Salah satu keterampilan yang dinilai di kelas ini adalah keberanian mengatakan "persoalan ini tidak butuh AI". Mahasiswa yang memaksakan AI ke persoalan yang salah akan kehilangan 20% nilai produk akhir pada aspek ketepatan rumusan masalah.
+Salah satu keterampilan yang dinilai di kelas ini adalah keberanian mengatakan "persoalan ini tidak butuh AI". Karena itu **ketepatan rumusan masalah berbobot 20%** pada produk akhir (Lampiran H): memilih persoalan yang memang cocok untuk AI bernilai sama pentingnya dengan membangunnya dengan baik.
 
 ### Peta perjalanan semester
 
@@ -117,7 +117,7 @@ Jangan menempelkan dokumen internal organisasi, data pribadi orang lain, atau da
 
 ### AMATI — Tiga persoalan, satu peta (25 menit, tanpa AI)
 
-Ambil tiga persoalan berikut. Untuk masing-masing, tentukan disiplin mana yang sesungguhnya dibutuhkan, lalu tuliskan alasannya dalam satu kalimat.
+Ambil tiga persoalan berikut. Untuk masing-masing, tentukan disiplin mana yang sebenarnya dibutuhkan, lalu tuliskan alasannya dalam satu kalimat.
 
 | # | Persoalan | Disiplin yang tepat | Alasan |
 |---|---|---|---|
@@ -125,7 +125,7 @@ Ambil tiga persoalan berikut. Untuk masing-masing, tentukan disiplin mana yang s
 | 2 | Memperkirakan jumlah pengunjung pelabuhan bulan depan dari data 5 tahun | | |
 | 3 | Meringkas 40 laporan survei lapangan menjadi tabel temuan berformat tetap | | |
 
-Kemudian jawab: **persoalan nomor berapa yang berubah jawabannya bila jumlah datanya menjadi 40.000, bukan 40?** Jelaskan.
+Kemudian jawab: **persoalan nomor berapa yang berubah jawabannya kalau jumlah datanya menjadi 40.000, bukan 40?** Jelaskan.
 
 ### PATAHKAN — Pertanyaan yang sama, jawaban yang berbeda (25 menit)
 
@@ -191,7 +191,7 @@ Satu kalimat yang perlu Anda pegang seluruh semester:
 
 > Model bahasa besar memperkirakan potongan teks berikutnya yang paling mungkin, satu potongan demi satu potongan, berdasarkan seluruh teks yang sudah ada di hadapannya.
 
-Ia tidak mencari jawaban di basis data. Ia tidak memeriksa kebenaran. Ia tidak "tahu" apa pun dalam arti manusia. Setiap kata yang terdengar percaya diri dan setiap kata yang keliru dihasilkan oleh proses yang **persis sama**.
+Ia tidak mencari jawaban di basis data. Ia tidak memeriksa kebenaran. Ia tidak "tahu" apa pun dalam arti manusia. Setiap kata yang terdengar percaya diri dan setiap kata yang salah dihasilkan oleh proses yang **persis sama**.
 
 Karena itu, dua hal berikut bukan kontradiksi: model dapat menulis paragraf yang benar secara mengagumkan, dan pada kalimat berikutnya mengarang nomor peraturan yang tidak pernah ada. Keduanya keluar dari mesin yang sama, dengan mekanisme yang sama.
 
@@ -230,7 +230,7 @@ Suhu (*temperature*) mengatur seberapa besar model boleh memilih kemungkinan yan
 | Sedang (0,4–0,7) | Seimbang | Penjelasan, ringkasan |
 | Tinggi (0,8+) | Beragam, kadang liar | Curah gagasan, variasi bahasa |
 
-Kekeliruan yang paling sering: mengira suhu 0 berarti keluaran **selalu** identik. Ia hanya membuat keluaran jauh lebih stabil, bukan dijamin sama.
+Kesalahan yang paling sering: mengira suhu 0 berarti keluaran **selalu** identik. Ia hanya membuat keluaran jauh lebih stabil, bukan dijamin sama.
 
 ### Halusinasi adalah sifat bawaan
 
@@ -291,7 +291,7 @@ Tunjukkan perhitungannya, jangan hanya hasil akhirnya.
 
 Ambil satu jawaban model tentang bidang Anda yang panjangnya kira-kira satu paragraf. Bedah dengan tabel berikut:
 
-| Pernyataan dalam jawaban | Dapat saya verifikasi? | Sumbernya apa? | Benar / keliru / tak terperiksa |
+| Pernyataan dalam jawaban | Dapat saya verifikasi? | Sumbernya apa? | Benar / salah / tak terperiksa |
 |---|---|---|---|
 | | | | |
 
@@ -323,7 +323,7 @@ Nomor 6 menguji "kehilangan di tengah". Ulangi dengan kalimat aneh diletakkan di
 3. Hitung biaya per pemanggilan, per pengguna per bulan, dan untuk 100 pengguna. **Tunjukkan perhitungannya.**
 4. Tentukan batas anggaran pribadi Anda untuk semester ini dan tuliskan berapa pemanggilan yang berarti.
 
-**Tantangan wajib.** Rancang satu prompt yang membuat model **mengakui ketidaktahuannya secara konsisten** pada lima pertanyaan yang jawabannya memang tidak ada. Laporkan berapa dari lima yang berhasil, dan prompt versi berapa yang akhirnya bekerja. Bila tidak ada yang mencapai lima dari lima, laporkan itu — dan itu bukan kegagalan, itu temuan.
+**Tantangan wajib.** Rancang satu prompt yang membuat model **mengakui ketidaktahuannya secara konsisten** pada lima pertanyaan yang jawabannya memang tidak ada. Laporkan berapa dari lima yang berhasil, dan prompt versi berapa yang akhirnya bekerja. Kalau tidak ada yang mencapai lima dari lima, laporkan itu — dan itu bukan kegagalan, itu temuan.
 
 ---
 
@@ -333,7 +333,7 @@ Nomor 6 menguji "kehilangan di tengah". Ulangi dengan kalimat aneh diletakkan di
 - [ ] Enam percobaan PATAHKAN dijalankan dengan prediksi terisi lebih dulu
 - [ ] Nomor 5 diulang lima kali dan hasilnya dihitung
 - [ ] Perhitungan biaya ditampilkan langkahnya, bukan hanya hasil
-- [ ] Tantangan wajib dilaporkan apa adanya, termasuk bila gagal
+- [ ] Tantangan wajib dilaporkan apa adanya, termasuk kalau gagal
 - [ ] **Laporan pengamatan perilaku model** dikumpulkan (komponen Tugas, 5%)
 
 ---
@@ -351,7 +351,7 @@ Nomor 6 menguji "kehilangan di tengah". Ulangi dengan kalimat aneh diletakkan di
 
 ### Mengapa memakai model gateway, bukan satu penyedia
 
-Bila produk Anda bicara langsung ke satu penyedia, Anda terikat padanya: satu kredensial, satu format, satu tarif, dan biaya berpindah yang mahal saat model yang lebih baik atau lebih murah muncul.
+Kalau produk Anda bicara langsung ke satu penyedia, Anda terikat padanya: satu kredensial, satu format, satu tarif, dan biaya berpindah yang mahal saat model yang lebih baik atau lebih murah muncul.
 
 **Model gateway** (gerbang model) adalah lapisan perantara: satu kredensial, satu format pemanggilan, banyak model di belakangnya. Manfaatnya bukan kenyamanan semata:
 
@@ -457,7 +457,7 @@ Panduan penyiapan lengkap ada di [lampiran/F-panduan-tool.md](lampiran/F-panduan
 | Token keluaran terpakai | | |
 | Waktu tanggap | | |
 
-Lalu jawab: bila Anda menghapus bagian "system", apa yang Anda **duga** berubah? Jangan dicoba dulu — itu percobaan nomor 1 di tahap berikutnya.
+Lalu jawab: kalau Anda menghapus bagian "system", apa yang Anda **duga** berubah? Jangan dicoba dulu — itu percobaan nomor 1 di tahap berikutnya.
 
 ### PATAHKAN — Lima percobaan (25 menit)
 
@@ -482,7 +482,7 @@ Untuk nomor 5, catat tiga angka untuk masing-masing model: biaya, waktu tanggap,
 3. Buat file `catatan-pemakaian.md` yang akan Anda isi tiap minggu: tanggal, kegiatan, model, perkiraan token, perkiraan biaya. File ini menjadi bahan mentah laporan biaya Minggu 14 — mulai sekarang, bukan Minggu 14.
 4. Jalankan satu prompt uji sederhana pada **tiga** model berbeda dan isi tabel perbandingan.
 
-**Tantangan wajib.** Temukan satu tugas dari calon persoalan Anda yang hasil model termurahnya **tidak dapat dibedakan** dari model termahal. Tunjukkan buktinya berupa keluaran keduanya berdampingan, dan hitung berapa penghematannya bila tugas itu dijalankan seribu kali.
+**Tantangan wajib.** Temukan satu tugas dari calon persoalan Anda yang hasil model termurahnya **tidak dapat dibedakan** dari model termahal. Tunjukkan buktinya berupa keluaran keduanya berdampingan, dan hitung berapa penghematannya kalau tugas itu dijalankan seribu kali.
 
 ---
 

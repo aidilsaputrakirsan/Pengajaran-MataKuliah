@@ -52,7 +52,7 @@ Kelompok terakhir diambil dari daftar kegagalan yang Anda kumpulkan sepanjang se
 
 ### Kriteria penilaian harus dapat diterapkan orang lain
 
-Bila kriteria Anda "jawabannya bagus", dua penilai akan menghasilkan angka berbeda dan angka itu tidak bermakna. Kriteria yang dapat diterapkan berbentuk pertanyaan biner:
+Kalau kriteria Anda "jawabannya bagus", dua penilai akan menghasilkan angka berbeda dan angka itu tidak bermakna. Kriteria yang dapat diterapkan berbentuk pertanyaan biner:
 
 ```
 Untuk tiap kasus, nilai lima hal, masing-masing YA / TIDAK:
@@ -70,8 +70,8 @@ Lima pertanyaan biner mengalahkan satu skala 1–10, karena "7" tidak memberi ta
 Menilai puluhan kasus dengan tangan itu lambat, jadi model dapat dipakai sebagai penilai. Tiga syarat agar hasilnya layak dipercaya:
 
 1. **Penilai memakai kriteria biner yang sama**, bukan diminta "menilai kualitas".
-2. **Kalibrasi.** Anda nilai sendiri sedikitnya sepertiga kasus dengan tangan, lalu bandingkan dengan penilaian model. Bila banyak berbeda, penilai model tidak layak dipakai untuk sisanya.
-3. **Penilai bukan model yang sama dengan yang dinilai**, bila memungkinkan. Model cenderung menilai keluarannya sendiri lebih tinggi.
+2. **Kalibrasi.** Anda nilai sendiri sedikitnya sepertiga kasus dengan tangan, lalu bandingkan dengan penilaian model. Kalau banyak berbeda, penilai model tidak layak dipakai untuk sisanya.
+3. **Penilai bukan model yang sama dengan yang dinilai**, kalau memungkinkan. Model cenderung menilai keluarannya sendiri lebih tinggi.
 
 Angka kalibrasi ini wajib dilaporkan. Angka evaluasi tanpa kalibrasi adalah angka yang tidak diketahui artinya.
 
@@ -92,7 +92,7 @@ Empat cara menurunkan biaya, dari yang paling sering berhasil:
 | Model bertingkat: tugas rutin ke model kecil | Besar | Perlu diuji ulang per tugas |
 | Memangkas konteks: kirim hanya yang perlu | Besar | Risiko memangkas yang ternyata penting |
 | Menyimpan hasil yang berulang (*caching*) | Sedang–besar | Hasil bisa basi |
-| Membatasi panjang keluaran | Kecil–sedang | Jawaban terpotong bila batas terlalu ketat |
+| Membatasi panjang keluaran | Kecil–sedang | Jawaban terpotong kalau batas terlalu ketat |
 
 Setiap cara yang Anda terapkan wajib disertai bukti bahwa **kualitas tidak turun** — diukur dengan set uji yang sama. Penghematan yang menurunkan kualitas bukan penghematan, itu penurunan mutu yang disamarkan.
 
@@ -104,7 +104,7 @@ Setiap cara yang Anda terapkan wajib disertai bukti bahwa **kualitas tidak turun
 
 - [ ] Set uji `12 + (K mod 6)` kasus dengan komposisi sesuai porsi, lengkap jawaban acuan
 - [ ] Kriteria penilaian biner yang dapat diterapkan orang lain
-- [ ] Seluruh kasus dinilai; bila memakai penilai model, angka kalibrasi dilaporkan
+- [ ] Seluruh kasus dinilai; kalau memakai penilai model, angka kalibrasi dilaporkan
 - [ ] Hasil dibandingkan dengan garis dasar Minggu 9
 - [ ] Tiga angka biaya dihitung dari data nyata `catatan-pemakaian.md`
 - [ ] Sedikitnya satu upaya penghematan diterapkan, dengan bukti kualitas tidak turun
@@ -134,7 +134,7 @@ Lalu jawab: pertanyaan biner nomor berapa yang **paling sulit** Anda nilai secar
 | 5 | Naikkan suhu ke 1, jalankan set uji | | |
 | 6 | Minta penilai model menilai keluaran yang **sengaja dibuat salah** | | |
 
-Nomor 1 mengukur reproducibility sistem Anda. Bila banyak kasus berubah antar-jalan, seluruh angka evaluasi Anda punya variance, dan besarnya variance itu harus dilaporkan bersama angkanya.
+Nomor 1 mengukur reproducibility sistem Anda. Kalau banyak kasus berubah antar-jalan, seluruh angka evaluasi Anda punya variance, dan besarnya variance itu harus dilaporkan bersama angkanya.
 
 Nomor 6 menguji penilainya, bukan sistemnya. Penilai yang meluluskan keluaran yang jelas salah tidak layak dipakai.
 
@@ -164,7 +164,7 @@ Satu masalah lebih serius daripada empat lainnya karena ia membuat seluruh angka
 
 Susun `laporan-evaluasi.md` memakai [lampiran/D-template-laporan-evaluasi.md](lampiran/D-template-laporan-evaluasi.md), memenuhi seluruh kriteria sukses bagian 14.2.
 
-**Tantangan wajib.** Terapkan satu penghematan yang menurunkan biaya sedikitnya 30% **tanpa** menurunkan angka evaluasi. Tunjukkan angka sebelum dan sesudah pada set uji yang sama. Bila tidak tercapai, laporkan penghematan yang Anda coba, berapa kualitas yang turun, dan pada kasus jenis apa penurunannya terjadi.
+**Tantangan wajib.** Terapkan satu penghematan yang menurunkan biaya sedikitnya 30% **tanpa** menurunkan angka evaluasi. Tunjukkan angka sebelum dan sesudah pada set uji yang sama. Kalau tidak tercapai, laporkan penghematan yang Anda coba, berapa kualitas yang turun, dan pada kasus jenis apa penurunannya terjadi.
 
 ---
 
@@ -174,7 +174,7 @@ Susun `laporan-evaluasi.md` memakai [lampiran/D-template-laporan-evaluasi.md](la
 - [ ] Kriteria biner diperbaiki sampai konsisten diterapkan
 - [ ] Enam percobaan PATAHKAN dengan prediksi lebih dulu
 - [ ] Variance antar-jalan (nomor 1) dilaporkan bersama angka evaluasi
-- [ ] Kalibrasi penilai model dilaporkan bila penilai model dipakai
+- [ ] Kalibrasi penilai model dilaporkan kalau penilai model dipakai
 - [ ] Lima masalah laporan menyesatkan ditemukan
 - [ ] Tiga angka biaya dari data nyata
 - [ ] Perbandingan terhadap garis dasar Minggu 9 tertulis
@@ -207,16 +207,16 @@ Butir terakhir layak Anda periksa hari ini juga. Kunci yang pernah terunggah tet
 
 Bias masuk melalui tiga pintu, dan ketiganya ada pada produk Anda:
 
-1. **Dari model.** Ia dilatih pada teks yang timpang. Bahasa Indonesia terwakili jauh lebih sedikit daripada bahasa Inggris, dan istilah teknis lokal sering ditafsirkan keliru.
-2. **Dari dokumen rujukan Anda.** Bila delapan dokumen Anda seluruhnya berasal dari satu instansi, sistem Anda mewakili sudut pandang satu instansi — dan menyampaikannya sebagai fakta netral.
+1. **Dari model.** Ia dilatih pada teks yang timpang. Bahasa Indonesia terwakili jauh lebih sedikit daripada bahasa Inggris, dan istilah teknis lokal sering ditafsirkan salah.
+2. **Dari dokumen rujukan Anda.** Kalau delapan dokumen Anda seluruhnya berasal dari satu instansi, sistem Anda mewakili sudut pandang satu instansi — dan menyampaikannya sebagai fakta netral.
 3. **Dari rancangan Anda.** Kategori yang Anda tetapkan pada skema keluaran menentukan apa yang **tidak dapat** dinyatakan sistem. Setiap kategori yang tidak Anda sediakan adalah kasus yang akan dipaksa masuk ke kategori lain.
 
 Pintu ketiga paling sering terlewat karena ia terasa seperti keputusan teknis. Ia bukan.
 
 ### Empat pertanyaan etis yang wajib terjawab
 
-1. **Siapa yang dirugikan bila sistem ini salah?** Bukan "apakah bisa salah" — pasti bisa. Siapa yang menanggungnya.
-2. **Apakah pengguna tahu ia sedang berhadapan dengan sistem AI?** Dan apakah ia tahu jawabannya bisa keliru?
+1. **Siapa yang dirugikan kalau sistem ini salah?** Bukan "apakah bisa salah" — pasti bisa. Siapa yang menanggungnya.
+2. **Apakah pengguna tahu ia sedang berhadapan dengan sistem AI?** Dan apakah ia tahu jawabannya bisa salah?
 3. **Data siapa yang diproses, dan apakah pemiliknya tahu?**
 4. **Untuk apa sistem ini tidak boleh dipakai?** Batas yang Anda tetapkan sendiri, tertulis.
 
@@ -224,7 +224,7 @@ Pertanyaan keempat menghasilkan pernyataan etis Anda. Sistem tanpa batas penggun
 
 ### Tanggung jawab profesional
 
-Anda memakai AI untuk membangun. Itu diizinkan dan diharapkan. Yang tidak berpindah adalah tanggung jawabnya. Bila sistem Anda memberi rekomendasi keliru yang merugikan seseorang, "modelnya yang salah" bukan jawaban profesional — sama seperti seorang insinyur tidak dapat menyalahkan kalkulatornya.
+Anda memakai AI untuk membangun. Itu diizinkan dan diharapkan. Yang tidak berpindah adalah tanggung jawabnya. Kalau sistem Anda memberi rekomendasi salah yang merugikan seseorang, "modelnya yang salah" bukan jawaban profesional — sama seperti seorang insinyur tidak dapat menyalahkan kalkulatornya.
 
 ---
 
@@ -236,7 +236,7 @@ Anda memakai AI untuk membangun. Itu diizinkan dan diharapkan. Yang tidak berpin
 - [ ] Kajian bias: ketiga pintu ditinjau, dengan **contoh konkret** dari produk Anda, bukan pernyataan umum
 - [ ] Empat pertanyaan etis terjawab
 - [ ] Pernyataan etis tertulis: untuk apa sistem ini tidak boleh dipakai
-- [ ] Pemberitahuan kepada pengguna: bagaimana sistem menyatakan dirinya AI dan bahwa jawabannya bisa keliru
+- [ ] Pemberitahuan kepada pengguna: bagaimana sistem menyatakan dirinya AI dan bahwa jawabannya bisa salah
 - [ ] Daftar risiko yang **diterima tanpa dimitigasi**, beserta alasannya
 
 Butir terakhir menuntut kejujuran. Setiap sistem punya risiko yang diterima; menyembunyikannya lebih buruk daripada menyatakannya.
@@ -253,7 +253,7 @@ Butir terakhir menuntut kejujuran. Setiap sistem punya risiko yang diterima; men
 | Data apa yang dikirim ke penyedia model? | |
 | Data apa yang disimpan, di mana, berapa lama? | |
 | Siapa pemilik data itu, dan apakah ia tahu? | |
-| Bila sistem ini berhenti dipakai, data itu jadi apa? | |
+| Kalau sistem ini berhenti dipakai, data itu jadi apa? | |
 | Data apa yang **seharusnya tidak pernah** masuk? | |
 
 Lalu periksa: apakah ada mekanisme yang **mencegah** baris terakhir masuk, atau Anda hanya berharap tidak terjadi?
@@ -269,9 +269,9 @@ Lalu periksa: apakah ada mekanisme yang **mencegah** baris terakhir masuk, atau 
 | 5 | Masukkan data yang seharusnya tidak boleh masuk; lihat apakah ada yang mencegah | | |
 | 6 | Periksa riwayat repositori Anda: adakah kredensial yang pernah terunggah | | |
 
-Nomor 3 adalah uji bias rancangan. Catat ke kategori mana kasus itu dipaksa masuk, dan siapa yang dirugikan bila hal itu terjadi berulang.
+Nomor 3 adalah uji bias rancangan. Catat ke kategori mana kasus itu dipaksa masuk, dan siapa yang dirugikan kalau hal itu terjadi berulang.
 
-Nomor 6 bukan latihan. Bila ditemukan, cabut kunci itu hari ini dan laporkan tindakan Anda di catatan proses.
+Nomor 6 bukan latihan. Kalau ditemukan, cabut kunci itu hari ini dan laporkan tindakan Anda di catatan proses.
 
 ### PERBAIKI — Pernyataan etis yang kosong (20 menit)
 
@@ -328,7 +328,7 @@ Susun `kajian-risiko.md` memenuhi seluruh kriteria sukses bagian 15.2. Pernyataa
 
 Ketentuan terakhir adalah inti UAS ini. Anda tidak memilih kasus yang ditampilkan; dosen memilih dari set uji **yang Anda susun sendiri** — termasuk kemungkinan kasus yang menurut laporan Anda gagal.
 
-Sistem yang gagal pada kasus yang laporan Anda **sudah menyatakan** gagal tidak kehilangan nilai. Sistem yang gagal pada kasus yang laporan Anda klaim berhasil kehilangan nilai besar, dan yang hilang bukan aspek teknis melainkan aspek kejujuran.
+Sistem yang gagal pada kasus yang laporan Anda **sudah menyatakan** gagal tidak kehilangan nilai. Sistem yang gagal pada kasus yang laporan Anda klaim berhasil kehilangan nilai besar, dan yang hilang bukan aspek teknis tapi aspek kejujuran.
 
 ---
 
@@ -350,7 +350,7 @@ Satu file terkompresi `<NIM>-portofolio.zip`:
 | `catatan-proses/` | Seluruh catatan proses mingguan |
 | `refleksi.md` | Maksimal 1 halaman; ketentuan di bagian 16.4 |
 
-Portofolio yang tidak lengkap tetap dapat tampil, tetapi file yang hilang dinilai nol pada komponennya — dan komponen Proyek bernilai 30%, tiga kali bobot UAS itu sendiri.
+Portofolio yang tidak lengkap tetap dapat tampil, tetapi file yang hilang tidak bisa dinilai. Perlu ditekankan karena sering luput: komponen Proyek bernilai 30%, tiga kali bobot sesi UAS itu sendiri — jadi cek daftar ini sekali lagi sebelum mengunggah.
 
 ---
 
@@ -374,9 +374,9 @@ Maksimal satu halaman, menjawab empat hal:
 1. Keputusan rancangan apa yang paling Anda sesali, dan apa yang akan Anda lakukan berbeda?
 2. Kesalahan apa yang Anda buat sepanjang semester yang tidak tertangkap oleh siapa pun kecuali Anda sendiri?
 3. Bagaimana AI membantu Anda, dan di titik mana ia menyesatkan Anda?
-4. Bila produk Anda dipakai orang sungguhan mulai besok, apa yang paling membuat Anda khawatir?
+4. Kalau produk Anda dipakai orang sungguhan mulai besok, apa yang paling membuat Anda khawatir?
 
-Pertanyaan kedua dinilai pada kejujurannya. Jawaban "tidak ada" pada mata kuliah selama enam belas minggu tidak akan dipercaya, dan dinilai sebagai kurangnya kesadaran diri.
+Pertanyaan kedua dinilai pada kejujurannya, bukan pada seberapa kecil kesalahan yang Anda akui. Enam belas minggu membangun sesuatu pasti meninggalkan setidaknya satu kesalahan yang hanya Anda yang tahu — menemukan dan menamainya justru bukti bahwa Anda mengawasi kerja sendiri.
 
 ---
 

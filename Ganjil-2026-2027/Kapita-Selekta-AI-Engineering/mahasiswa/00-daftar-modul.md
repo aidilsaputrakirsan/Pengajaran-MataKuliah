@@ -16,7 +16,7 @@
 | [05-modul-minggu-10-13.md](05-modul-minggu-10-13.md) | Minggu 9 | Blok D — Agentic: dari tool menjadi pelaku |
 | [06-modul-minggu-14-16-uas.md](06-modul-minggu-14-16-uas.md) | Minggu 13 | Blok E — Kematangan, evaluasi, etika, dan UAS |
 
-Baca bagian **Konsep** *sebelum* pertemuan. Tatap muka hanya 100 menit per minggu dan sebagian besar dipakai untuk mengerjakan produk Anda sendiri, bukan mendengarkan ceramah. Datang tanpa membaca berarti Anda kehilangan minggu itu.
+Baca bagian **Konsep** *sebelum* pertemuan. Tatap muka hanya 100 menit per minggu dan hampir seluruhnya dipakai untuk mengerjakan produk Anda sendiri, bukan mendengarkan ceramah. Itulah alasan bagian Konsep dibaca di rumah: waktu di kelas terlalu berharga untuk dipakai mengejar bacaan.
 
 ## Lampiran
 
@@ -38,7 +38,7 @@ Lampiran E memuat semua pertanyaan pertanggungjawaban. Ia tidak dirahasiakan kar
 ## Enam hal yang perlu Anda ketahui sebelum Minggu 1
 
 **1. Anda tidak perlu bisa memrogram, tetapi Anda wajib bisa menjelaskan.**
-Kelas ini memakai *AI-assisted development*: Anda merakit sistem dengan bantuan asisten pemrograman berbasis AI. Yang dinilai adalah ketepatan rancangan, kualitas evaluasi, dan kematangan pertimbangan etis. Kode yang berjalan sempurna tetapi tidak dapat Anda jelaskan bernilai **nol**, tanpa negosiasi.
+Kelas ini memakai *AI-assisted development*: Anda merakit sistem dengan bantuan asisten pemrograman berbasis AI. Jadi yang dinilai bukan kemampuan mengetik kode, tapi ketepatan rancangan, kualitas evaluasi, dan kematangan pertimbangan etis Anda. Kemampuan menjelaskan karya sendiri adalah inti dari semuanya — dan itu keterampilan yang bisa dilatih, bukan bakat.
 
 **2. Kelas ini tidak punya asisten.** Konsekuensinya tiga:
 
@@ -46,9 +46,9 @@ Kelas ini memakai *AI-assisted development*: Anda merakit sistem dengan bantuan 
 |---|---|
 | Tidak ada yang mengecek pekerjaan Anda baris per baris di kelas | Verifikasi dilakukan **oleh Anda sendiri** memakai daftar periksa di akhir tiap minggu |
 | Bantuan teknis satu-per-satu terbatas | Pertanyaan teknis dibawa ke forum kelas dulu; yang sudah terjawab di sana tidak diulang di kelas |
-| Penilaian bertumpu pada artefak, bukan pengamatan langsung | Yang tidak tercatat di repositori dan catatan proses Anda dianggap tidak terjadi |
+| Penilaian bertumpu pada artefak, bukan pengamatan langsung | Repositori dan catatan proses adalah satu-satunya jendela dosen ke kerja Anda — kerja bagus yang tidak tercatat di sana tidak bisa dinilai |
 
-Aturan **tiga puluh menit**: bila macet, coba mandiri 30 menit, lalu tulis pertanyaan di forum dengan format yang ada di Lampiran F. Pertanyaan yang tidak menyertakan apa yang sudah Anda coba tidak akan dijawab.
+Aturan **tiga puluh menit**: kalau macet, coba mandiri 30 menit dulu, lalu tulis pertanyaan di forum memakai format di Lampiran F. Format itu meminta Anda menyebutkan apa yang sudah dicoba — bukan untuk mempersulit, tapi karena separuh persoalan biasanya terpecahkan saat Anda menuliskannya, dan sisanya jadi jauh lebih cepat dijawab.
 
 **3. Produk Anda berasal dari bidang keilmuan Anda sendiri.**
 Kelas ini terbuka lintas prodi. Anda tidak mengerjakan kasus contoh dari dosen; Anda mengangkat persoalan nyata dari prodi Anda. Tema ditetapkan Minggu 4 dan tidak boleh diganti setelah Minggu 6. Aturan lengkap ada di Lampiran B.
@@ -64,7 +64,7 @@ Minggu 10–13 Agentic       →  Produk menyelesaikan tugas bertahap secara man
 Minggu 14–16 Kematangan     →  Produk teruji, terukur biayanya, dan dipertanggungjawabkan
 ```
 
-Melewatkan satu lapisan berarti lapisan berikutnya tidak dapat dikerjakan. Tidak ada jalan pintas ke Minggu 13.
+Tiap lapisan berdiri di atas lapisan sebelumnya, jadi tidak ada jalan pintas ke Minggu 13. Sisi baiknya: Anda tidak pernah memulai dari nol, dan kerja Minggu 2 masih terpakai di Minggu 15.
 
 **5. Modul akan berhenti memberi contoh.**
 Minggu 1–6 memberi prompt dan langkah yang siap pakai. Mulai Minggu 7 contoh prompt dipindah ke Lampiran A tanpa urutan pengerjaan. Mulai Minggu 10 yang Anda terima hanya skenario dan kriteria sukses. Enam minggu pertama adalah persiapan untuk itu.
@@ -78,7 +78,7 @@ Minggu 1–6 memberi prompt dan langkah yang siap pakai. Mulai Minggu 7 contoh p
 | **PERBAIKI** | Memperbaiki kasus rusak yang disediakan dosen; jumlah kesalahannya selalu diberitahukan | 20 menit |
 | **RAKIT** | Menambah satu lapisan ke produk Anda sendiri | 35 menit + mandiri |
 
-Prediksi yang keliru dan tercatat lebih bernilai daripada kolom yang dikosongkan. Prediksi yang tepat sempurna di seluruh baris akan ditanyakan dosen saat UTS.
+Kolom prediksi tidak dinilai benar atau salahnya. Yang dinilai adalah apakah Anda mengisinya **sebelum** mencoba. Prediksi yang meleset dan tercatat jujur justru bahan terbaik untuk catatan proses Anda — di situlah terlihat apa yang tadinya Anda kira, dan apa yang ternyata terjadi.
 
 Tahap AMATI dikerjakan tanpa AI karena ia satu-satunya bagian yang mengukur apakah Anda benar-benar paham. Tiga tahap lain boleh, bahkan dianjurkan, memakai AI.
 
@@ -86,13 +86,13 @@ Tahap AMATI dikerjakan tanpa AI karena ia satu-satunya bagian yang mengukur apak
 
 ## Ketentuan penggunaan AI
 
-Penggunaan AI **diizinkan dan diharapkan**, dengan tiga syarat yang tidak dapat ditawar:
+Penggunaan AI **diizinkan dan diharapkan**, dengan tiga syarat:
 
 1. **Transparan.** Setiap penggunaan dicantumkan pada catatan proses (Lampiran C): apa yang Anda minta, apa yang dikembalikan, dan apa yang Anda ubah.
-2. **Terpahami.** Anda wajib mampu menjelaskan setiap bagian karya Anda. Ketidakmampuan menjelaskan dinilai sebagai tidak menguasai, terlepas dari kualitas luaran.
+2. **Terpahami.** Anda mampu menjelaskan setiap bagian karya Anda. Kalau ada bagian yang belum bisa Anda jelaskan, itu tanda bagian itu belum selesai dipelajari — dan lebih baik ketahuan sekarang daripada di Minggu 16.
 3. **Bertanggung jawab.** Kesalahan pada karya tetap tanggung jawab Anda, bukan alat yang Anda pakai.
 
-**Yang dilarang mutlak:** menempelkan data pribadi orang lain, dokumen rahasia organisasi, kredensial asli, atau data penelitian yang belum dipublikasikan milik pihak lain ke layanan AI mana pun. Pelanggaran butir ini bukan soal nilai, melainkan soal etika profesi, dan ditangani terpisah dari mekanisme penilaian.
+**Satu batas yang tidak boleh dilewati:** jangan menempelkan data pribadi orang lain, dokumen rahasia organisasi, kredensial asli, atau data penelitian pihak lain yang belum dipublikasikan ke layanan AI mana pun. Ini bukan soal nilai; ini kebiasaan profesi yang akan Anda bawa keluar dari kelas ini.
 
 ---
 
@@ -120,7 +120,23 @@ Satu file terkompresi bernama `<NIM>-m<minggu>.zip`, berisi:
 2. **`catatan-proses.md`** — memakai template Lampiran C, maksimal 2 halaman
 3. **`bukti/`** — tangkapan layar atau rekaman keluaran yang membuktikan sistem berjalan, beserta masukan yang dipakai
 
-Batas pengumpulan: **H+2 setelah pertemuan, pukul 23.59.** Keterlambatan sampai 24 jam dinilai maksimal 80%; lebih dari itu dinilai nol kecuali ada alasan yang sah dan disampaikan sebelum tenggat, bukan sesudah.
+Batas pengumpulan: **H+2 setelah pertemuan, pukul 23.59.**
+
+---
+
+## Aturan main
+
+Enam poin di atas menjelaskan cara kelas ini bekerja. Bagian ini menjelaskan batasnya. Semuanya dikumpulkan di satu tempat supaya tidak ada yang tersembunyi di tengah modul, dan supaya Anda bisa merujuknya kapan pun.
+
+| Hal | Ketentuan |
+|---|---|
+| Karya yang tidak dapat dijelaskan | Dinilai nol pada komponen bersangkutan, berapa pun kualitas luarannya. Ini berlaku sama untuk semua orang dan tidak dinegosiasikan per kasus |
+| Keterlambatan | Sampai 24 jam: maksimal 80%. Lebih dari itu: nol, kecuali ada alasan sah yang disampaikan **sebelum** tenggat |
+| Tema proyek | Ditetapkan Minggu 4, dapat diganti sampai Minggu 6, terkunci setelahnya |
+| Data sensitif ke layanan AI | Ditangani terpisah dari penilaian, sebagai persoalan etika profesi |
+| Klaim keberhasilan tanpa bukti | Dinilai lebih rendah daripada laporan kegagalan yang jujur. Ini disengaja |
+
+Kalau ada keadaan yang membuat salah satu ketentuan ini memberatkan Anda secara tidak wajar — sakit, urusan keluarga, kendala perangkat — bicarakan lebih awal. Yang sulit ditolong adalah kabar yang datang setelah tenggat lewat.
 
 ---
 

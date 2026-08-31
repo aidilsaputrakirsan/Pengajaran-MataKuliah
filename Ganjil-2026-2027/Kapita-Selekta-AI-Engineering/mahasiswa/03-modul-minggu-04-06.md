@@ -3,7 +3,7 @@
 
 **Kapita Selekta: AI Engineering | Sub-CPMK-2 | CPMK-1**
 
-> Mulai minggu ini produk Anda ada. Setiap minggu menambahkan satu lapisan ke produk yang sama, dan tidak ada minggu yang boleh dilewati.
+> Mulai minggu ini produk Anda ada. Setiap minggu menambahkan satu lapisan ke produk yang sama — jadi kerja minggu ini akan Anda pakai lagi minggu depan, dan begitu seterusnya sampai Minggu 16.
 >
 > Contoh pada modul ini memakai **K = 7**. Angka Anda berbeda; hitung dari Lampiran B.
 
@@ -13,7 +13,7 @@
 
 Tiga minggu pertama Anda memperlakukan model sebagai lawan bicara. Mulai sekarang Anda memperlakukannya sebagai **komponen sistem**: sesuatu yang menerima masukan berformat, mengembalikan keluaran berformat, dan dapat disambungkan ke bagian lain.
 
-Perbedaannya besar. Lawan bicara boleh menjawab dengan paragraf indah. Komponen sistem tidak boleh — karena ada bagian lain yang menunggu keluaran itu dan akan rusak bila bentuknya berubah-ubah.
+Perbedaannya besar. Lawan bicara boleh menjawab dengan paragraf indah. Komponen sistem tidak boleh — karena ada bagian lain yang menunggu keluaran itu dan akan rusak kalau bentuknya berubah-ubah.
 
 ---
 ---
@@ -40,19 +40,19 @@ Prompt yang bekerja bukan prompt yang panjang atau sopan. Ia prompt yang lengkap
 | **Contoh** | Seperti apa hasil yang benar? | Contoh hanya kasus mudah, tidak ada kasus sulit |
 | **Format** | Bentuk keluarannya bagaimana? | Diminta "rapi" alih-alih dinyatakan tegas |
 
-Bagian **Batasan** layak diperhatikan khusus. Instruksi larangan bekerja jauh lebih baik bila menyebutkan apa yang **harus dilakukan sebagai gantinya**. "Jangan mengarang" lemah. "Bila informasi tidak ada pada konteks, jawab persis `TIDAK ADA DI SUMBER` dan berhenti" jauh lebih kuat, karena ia memberi model satu jalur yang jelas untuk diikuti alih-alih sekadar menutup satu jalur.
+Bagian **Batasan** layak diperhatikan khusus. Instruksi larangan bekerja jauh lebih baik kalau menyebutkan apa yang **harus dilakukan sebagai gantinya**. "Jangan mengarang" lemah. "Kalau informasi tidak ada pada konteks, jawab persis `TIDAK ADA DI SUMBER` dan berhenti" jauh lebih kuat, karena ia memberi model satu jalur yang jelas untuk diikuti alih-alih sekadar menutup satu jalur.
 
 ### Tiga teknik penalaran yang benar-benar berguna
 
 **Pemberian contoh (*few-shot*).** Menyertakan dua sampai lima contoh pasangan masukan–keluaran. Ini cara paling murah dan paling efektif untuk mengunci gaya dan format. Syaratnya: contoh harus mencakup **kasus sulit**, bukan hanya kasus yang mudah. Contoh yang seluruhnya mudah mengajarkan model bahwa semua kasus mudah.
 
-**Berpikir bertahap (*chain-of-thought*).** Meminta model menguraikan langkah sebelum menyimpulkan. Berguna untuk tugas berpenalaran; sia-sia dan mahal untuk klasifikasi sederhana. Perhatikan bahwa uraian langkah yang ditampilkan model **belum tentu** proses yang sesungguhnya terjadi — ia adalah teks yang masuk akal tentang penalaran, bukan rekaman penalaran.
+**Berpikir bertahap (*chain-of-thought*).** Meminta model menguraikan langkah sebelum menyimpulkan. Berguna untuk tugas berpenalaran; sia-sia dan mahal untuk klasifikasi sederhana. Perhatikan bahwa uraian langkah yang ditampilkan model **belum tentu** proses yang sebenarnya terjadi — ia adalah teks yang masuk akal tentang penalaran, bukan rekaman penalaran.
 
 **Dekomposisi tugas.** Memecah satu pekerjaan besar menjadi beberapa pemanggilan kecil yang masing-masing sederhana. Ini teknik paling penting di kelas ini karena ia adalah embrio dari agen: klasifikasi dulu, baru ekstraksi, baru penyusunan. Setiap langkah lebih mudah diuji dan lebih mudah diperbaiki daripada satu prompt raksasa.
 
 ### Instruksi adalah kode, dan diperlakukan seperti kode
 
-Instruksi sistem Anda akan berubah puluhan kali sepanjang semester. Bila Anda menimpanya terus-menerus, pada Minggu 14 Anda tidak akan dapat menjawab pertanyaan paling dasar: **versi mana yang paling baik, dan mengapa?**
+Instruksi sistem Anda akan berubah puluhan kali sepanjang semester. Kalau Anda menimpanya terus-menerus, pada Minggu 14 Anda tidak akan dapat menjawab pertanyaan paling dasar: **versi mana yang paling baik, dan mengapa?**
 
 Karena itu setiap versi disimpan terpisah dengan catatan: apa yang diubah, mengapa, dan apa akibatnya. Ini bukan birokrasi; ini satu-satunya cara evaluasi Minggu 14 dapat menghasilkan angka yang bermakna.
 
@@ -131,7 +131,7 @@ Keluarkan enam baris, masing-masing berformat:
 <nama butir>: ADA | TIDAK ADA | <kutipan singkat sebagai bukti>
 ```
 
-| Sumbu | Kalimat mana | Bila dihapus, apa yang rusak |
+| Sumbu | Kalimat mana | Kalau dihapus, apa yang rusak |
 |---|---|---|
 | Peran | | |
 | Konteks | | |
@@ -309,10 +309,10 @@ dapat_ditentukan   : ya | tidak                                              (wa
 
 Jawab tanpa mencoba:
 
-1. Bila sebuah keluhan menyangkut penagihan **dan** layanan sekaligus, apa yang terjadi? Bagaimana skema ini seharusnya diperbaiki?
+1. Kalau sebuah keluhan menyangkut penagihan **dan** layanan sekaligus, apa yang terjadi? Bagaimana skema ini seharusnya diperbaiki?
 2. Mengapa `bukti` diwajibkan berupa kutipan langsung, bukan ringkasan?
-3. Bila `dapat_ditentukan` bernilai `tidak`, medan mana yang seharusnya diabaikan? Apakah skema ini menyatakannya? Bila tidak, apa akibatnya?
-4. Medan `tindakan_disarankan` dibatasi 20 kata. Apa yang terjadi bila tindakan yang tepat memang panjang?
+3. Kalau `dapat_ditentukan` bernilai `tidak`, medan mana yang seharusnya diabaikan? Apakah skema ini menyatakannya? Kalau tidak, apa akibatnya?
+4. Medan `tindakan_disarankan` dibatasi 20 kata. Apa yang terjadi kalau tindakan yang tepat memang panjang?
 
 ### PATAHKAN — Enam percobaan (25 menit)
 
@@ -367,10 +367,10 @@ Keluaran C mengandung pelanggaran yang paling berbahaya karena ia paling sulit t
 1. Rancang skema keluaran produk Anda. Wajib memuat medan bukti dan satu nilai untuk kasus tak dapat ditentukan.
 2. Perbarui instruksi sistem ke versi baru yang menegakkan skema itu. Catat di `instruksi/CATATAN.md`.
 3. Uji pada **sepuluh** masukan berbeda: empat khas, empat batas, dua yang dirancang mengacau.
-4. Catat pada tabel: masukan, keluaran sah atau tidak, dan bila tidak, pelanggarannya apa.
+4. Catat pada tabel: masukan, keluaran sah atau tidak, dan kalau tidak, pelanggarannya apa.
 5. Tambahkan penanganan kegagalan tiga langkah. Buktikan ia bekerja dengan sengaja memicu kegagalan.
 
-**Tantangan wajib.** Capai **sepuluh dari sepuluh** keluaran sah. Bila setelah tiga versi instruksi Anda tetap tidak mencapainya, laporkan masukan mana yang bertahan gagal beserta analisis Anda tentang sebabnya — laporan yang jujur dinilai penuh, klaim keberhasilan tanpa bukti dinilai nol.
+**Tantangan wajib.** Capai **sepuluh dari sepuluh** keluaran sah. Kalau setelah tiga versi instruksi Anda tetap tidak mencapainya, laporkan masukan mana yang bertahan gagal beserta analisis Anda tentang sebabnya. Laporan semacam itu dinilai penuh — jadi tidak ada gunanya mengaku berhasil kalau buktinya belum ada.
 
 ---
 
@@ -390,7 +390,7 @@ Keluaran C mengandung pelanggaran yang paling berbahaya karena ia paling sulit t
 # MINGGU 6 — Pemanggilan Tool: Menjembatani Model dengan Dunia Luar
 
 **Sub-CPMK-2** · **(C3, C5)**
-**Target akhir minggu:** Produk Anda memanggil sedikitnya satu tool (perkakas eksternal) dan memakai hasilnya dalam jawaban, dengan penanganan bila tool itu gagal.
+**Target akhir minggu:** Produk Anda memanggil sedikitnya satu tool (perkakas eksternal) dan memakai hasilnya dalam jawaban, dengan penanganan kalau tool itu gagal.
 **Catatan penilaian:** **Kuis 2** di awal pertemuan, 15 menit, materi Minggu 4–5. Kisi-kisi di bagian 6.5.
 
 ---
@@ -410,18 +410,18 @@ Kesalahpahaman paling umum: mengira model "menjalankan" tool. Yang sebenarnya te
 5. Model menyusun jawaban akhir memakai hasil itu.
 ```
 
-Langkah 3 adalah tempat seluruh kendali Anda berada, dan tempat seluruh risiko berada. Model hanya mengusulkan; sistem Andalah yang memutuskan apakah usul itu dijalankan. Bila Anda menjalankan setiap usul tanpa pemeriksaan, Anda telah menyerahkan kendali kepada komponen yang tidak deterministik.
+Langkah 3 adalah tempat seluruh kendali Anda berada, dan tempat seluruh risiko berada. Model hanya mengusulkan; sistem Andalah yang memutuskan apakah usul itu dijalankan. Kalau Anda menjalankan setiap usul tanpa pemeriksaan, Anda telah menyerahkan kendali kepada komponen yang tidak deterministik.
 
 ### Deskripsi tool adalah prompt
 
-Model memilih tool berdasarkan **deskripsinya**. Deskripsi yang kabur menghasilkan pemilihan yang keliru, dan gejalanya membingungkan karena tampak seperti model yang bodoh, padahal itu deskripsi yang buruk.
+Model memilih tool berdasarkan **deskripsinya**. Deskripsi yang kabur menghasilkan pemilihan yang salah, dan gejalanya membingungkan karena tampak seperti model yang bodoh, padahal itu deskripsi yang buruk.
 
 | Deskripsi lemah | Deskripsi kuat |
 |---|---|
 | "mencari data" | "mencari dokumen peraturan zonasi berdasarkan nama kawasan; mengembalikan maksimal 5 chunk teks beserta nomor pasal. Pakai hanya untuk pertanyaan tentang ketentuan zonasi, bukan untuk data statistik penduduk" |
 | "menghitung" | "menghitung luas dari panjang dan lebar dalam meter; mengembalikan angka dalam meter persegi. Jangan dipakai untuk satuan selain meter" |
 
-Perhatikan bahwa deskripsi kuat menyebutkan **kapan tool TIDAK dipakai**. Itu bagian yang paling sering hilang dan paling sering menyebabkan pemilihan keliru.
+Perhatikan bahwa deskripsi kuat menyebutkan **kapan tool TIDAK dipakai**. Itu bagian yang paling sering hilang dan paling sering menyebabkan pemilihan salah.
 
 ### Batas kewenangan sejak tool pertama
 
@@ -436,7 +436,7 @@ Aturan sederhana yang berlaku seluruh semester: **tool yang mengubah sesuatu ata
 
 ### Tool gagal, dan kegagalannya harus terlihat
 
-Tool eksternal akan gagal: jaringan putus, file tidak ada, parameter salah. Yang buruk bukan kegagalannya, melainkan kegagalan yang disembunyikan. Kembalikan pesan error yang **jujur** ke model — "file tidak ditemukan" — bukan hasil kosong yang tampak seperti "tidak ada data". Model yang menerima hasil kosong akan menyimpulkan tidak ada data, dan menyampaikan kesimpulan itu kepada pengguna dengan penuh percaya diri.
+Tool eksternal akan gagal: jaringan putus, file tidak ada, parameter salah. Yang buruk bukan kegagalannya, tapi kegagalan yang disembunyikan. Kembalikan pesan error yang **jujur** ke model — "file tidak ditemukan" — bukan hasil kosong yang tampak seperti "tidak ada data". Model yang menerima hasil kosong akan menyimpulkan tidak ada data, dan menyampaikan kesimpulan itu kepada pengguna dengan penuh percaya diri.
 
 ---
 
@@ -506,11 +506,11 @@ Baris terakhir adalah yang terpenting. Model dapat menerima hasil tool yang bena
 
 Bandingkan nomor 3 dan 4 dengan saksama. Keduanya adalah kegagalan, tetapi hanya satu yang **terlihat** sebagai kegagalan oleh pengguna akhir. Yang mana, dan mengapa yang satunya lebih berbahaya?
 
-Nomor 6 adalah cicipan pertama tentang agentic. Catat apakah model berhasil merangkai dua langkah, dan bila gagal, gagal di titik mana. Kita kembali ke sini Minggu 10.
+Nomor 6 adalah cicipan pertama tentang agentic. Catat apakah model berhasil merangkai dua langkah, dan kalau gagal, gagal di titik mana. Kita kembali ke sini Minggu 10.
 
 ### PERBAIKI — Deskripsi tool yang menyesatkan (20 menit)
 
-Sistem berikut punya tiga tool. Pengguna bertanya *"Berapa jumlah penduduk Kawasan Industri Kariangau dan apa ketentuan zonasinya?"* dan sistem memilih tool yang keliru.
+Sistem berikut punya tiga tool. Pengguna bertanya *"Berapa jumlah penduduk Kawasan Industri Kariangau dan apa ketentuan zonasinya?"* dan sistem memilih tool yang salah.
 
 ```
 1. cari_data     — "mencari informasi"
@@ -518,9 +518,9 @@ Sistem berikut punya tiga tool. Pengguna bertanya *"Berapa jumlah penduduk Kawas
 3. hitung        — "melakukan perhitungan terhadap data"
 ```
 
-1. Sebutkan mengapa pemilihan keliru hampir pasti terjadi di sini.
+1. Sebutkan mengapa pemilihan salah hampir pasti terjadi di sini.
 2. Tulis ulang ketiga deskripsi sehingga pemilihannya dapat ditebak.
-3. Pertanyaan ini butuh dua tool. Sebutkan urutan yang benar dan apa yang terjadi bila urutannya dibalik.
+3. Pertanyaan ini butuh dua tool. Sebutkan urutan yang benar dan apa yang terjadi kalau urutannya dibalik.
 
 ### RAKIT — Produk memanggil tool (mandiri)
 
@@ -530,7 +530,7 @@ Sistem berikut punya tiga tool. Pengguna bertanya *"Berapa jumlah penduduk Kawas
 4. Tambahkan penanganan error tool yang **jujur**, bukan yang menyembunyikan.
 5. Uji dengan delapan pertanyaan menurut komposisi Prompt B. Catat berapa yang memilih tool dengan benar.
 
-**Tantangan wajib.** Tunjukkan satu pertanyaan yang membuat sistem Anda memilih tool keliru. Perbaiki **hanya dengan mengubah deskripsi tool**, tanpa menyentuh instruksi sistem, dan tunjukkan bukti sebelum-sesudah.
+**Tantangan wajib.** Tunjukkan satu pertanyaan yang membuat sistem Anda memilih tool salah. Perbaiki **hanya dengan mengubah deskripsi tool**, tanpa menyentuh instruksi sistem, dan tunjukkan bukti sebelum-sesudah.
 
 ---
 
@@ -554,7 +554,7 @@ Tertutup, tanpa AI, lima soal uraian singkat:
 1. Menemukan sumbu yang hilang pada sebuah instruksi sistem dan menjelaskan akibatnya
 2. Merancang skema keluaran untuk satu tugas yang diberikan, lengkap dengan nilai sah
 3. Menjelaskan mengapa medan bukti dan nilai tak-dapat-ditentukan memperbaiki keandalan
-4. Menilai dua deskripsi tool dan menjelaskan mana yang akan menyebabkan pemilihan keliru
+4. Menilai dua deskripsi tool dan menjelaskan mana yang akan menyebabkan pemilihan salah
 5. Menentukan tool mana yang boleh berjalan otomatis dan mana yang butuh persetujuan, beserta alasannya
 
 Seperti Kuis 1, yang dinilai adalah alasannya.

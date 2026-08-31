@@ -73,10 +73,10 @@ Padanan Indonesia tetap dicantumkan di sini karena dua alasan: peserta kelas ini
 
 ## Kaidah penulisan pada modul
 
-1. Istilah Inggris ditulis **tanpa dicetak miring** bila sudah lazim di kelas (prompt, token, tool, chunk, agent).
+1. Istilah Inggris ditulis **tanpa dicetak miring** kalau sudah lazim di kelas (prompt, token, tool, chunk, agent).
 2. Padanan Indonesia diberikan **sekali**, di titik istilah itu pertama kali diperkenalkan, dalam kurung. Contoh: *"chunking (pemenggalan dokumen)"*. Setelah itu istilah Inggrisnya dipakai konsisten.
-3. Bila Anda menulis laporan atau catatan proses, **pakai istilah yang sama dengan modul.** Konsistensi memudahkan Anda mencari rujukan sendiri, dan memudahkan pembaca laporan Anda.
-4. Bila program studi Anda menuntut istilah baku Indonesia pada dokumen resmi, pakailah kolom "Padanan Indonesia" di atas.
+3. Kalau Anda menulis laporan atau catatan proses, **pakai istilah yang sama dengan modul.** Konsistensi memudahkan Anda mencari rujukan sendiri, dan memudahkan pembaca laporan Anda.
+4. Kalau program studi Anda menuntut istilah baku Indonesia pada dokumen resmi, pakailah kolom "Padanan Indonesia" di atas.
 
 ---
 
@@ -84,7 +84,7 @@ Padanan Indonesia tetap dicantumkan di sini karena dua alasan: peserta kelas ini
 
 Tidak ada satu pun istilah di halaman ini yang menuntut kemampuan pemrograman untuk dipahami. Semuanya adalah nama untuk gagasan yang dijelaskan di dalam modul.
 
-Bila sebuah istilah terasa asing saat Anda membaca modul, cara tercepat bukan menghafal tabel ini, melainkan membaca bagian **Konsep** pada minggu tempat istilah itu diperkenalkan:
+Kalau sebuah istilah terasa asing saat Anda membaca modul, cara tercepat bukan menghafal tabel ini, tapi membaca bagian **Konsep** pada minggu tempat istilah itu diperkenalkan:
 
 | Istilah | Diperkenalkan pada |
 |---|---|

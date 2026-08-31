@@ -17,7 +17,7 @@ Lampiran ini dipakai dua kali: **Minggu 1** untuk menghitung angka lingkup Anda,
 | Jumlah dokumen rujukan minimum | `5 + (K mod 4)` | Minggu 7 |
 | Jumlah kasus uji minimum | `12 + (K mod 6)` | Minggu 14 |
 | Jumlah tool minimum | `2 + (K mod 2)` | Minggu 11 |
-| Mode keluaran tambahan | Bila `K` genap: wajib ada satu mode keluaran ringkas selain mode penuh | Minggu 5 |
+| Mode keluaran tambahan | Kalau `K` genap: wajib ada satu mode keluaran ringkas selain mode penuh | Minggu 5 |
 | Jumlah rekan yang Anda review | 2 pada UTS, 2 pada Minggu 12 | Minggu 8 |
 
 `mod` berarti sisa pembagian. Contoh untuk **K = 7**:
@@ -51,13 +51,13 @@ Dokumen rujukan Anda harus memenuhi **seluruh** syarat berikut. Dokumen yang gag
 | Syarat | Penjelasan |
 |---|---|
 | **Sah dipakai** | Dokumen publik, dokumen milik Anda sendiri, atau dokumen yang pemiliknya mengizinkan. Dokumen internal organisasi tanpa izin tertulis tidak boleh |
-| **Tidak memuat data pribadi** | Nama, nomor identitas, alamat, data kesehatan orang sungguhan. Bila ada, sensor dulu atau ganti dengan data sintetis |
+| **Tidak memuat data pribadi** | Nama, nomor identitas, alamat, data kesehatan orang sungguhan. Kalau ada, sensor dulu atau ganti dengan data sintetis |
 | **Cukup berisi** | Sedikitnya 3 halaman setara. Selebaran satu halaman tidak dihitung |
 | **Berbeda satu sama lain** | Delapan salinan dokumen yang sama dihitung satu |
 | **Ada jawabannya** | Sedikitnya enam pertanyaan uji Anda harus terjawab oleh kumpulan dokumen ini |
 | **Asalnya tercatat** | Judul, penerbit, tahun, tautan atau cara memperolehnya |
 
-Bila Anda kesulitan memenuhi jumlah minimum, itu tanda tema Anda terlalu sempit atau bidangnya tidak memiliki basis dokumen yang memadai. Bicarakan pada Minggu 5, bukan Minggu 8.
+Kalau Anda kesulitan memenuhi jumlah minimum, itu tanda tema Anda terlalu sempit atau bidangnya tidak memiliki basis dokumen yang memadai. Bicarakan pada Minggu 5, bukan Minggu 8.
 
 ---
 
@@ -152,20 +152,20 @@ Vonis                  : DITERIMA / DITERIMA DENGAN PERBAIKAN / DITOLAK
 
 Alasannya sederhana: produk dibangun berlapis. Mengganti tema pada Minggu 9 berarti membuang seluruh lapisan yang sudah dibangun, dan tidak ada cukup minggu tersisa untuk membangunnya kembali.
 
-Bila Anda ragu terhadap tema Anda, bawalah keraguan itu pada Minggu 5, ketika masih ada waktu.
+Kalau Anda ragu terhadap tema Anda, bawalah keraguan itu pada Minggu 5, ketika masih ada waktu.
 
 ---
 
 ## 5. Pertanyaan yang sering muncul
 
 **Bolehkah tema saya sama dengan rekan sekelas?**
-Boleh bila bidang dan persoalannya memang mirip, tetapi dokumen rujukan, set uji, dan rancangannya harus milik Anda sendiri. Angka lingkup yang berbeda akan membuat produknya berbeda dengan sendirinya.
+Boleh kalau bidang dan persoalannya memang mirip, tetapi dokumen rujukan, set uji, dan rancangannya harus milik Anda sendiri. Angka lingkup yang berbeda akan membuat produknya berbeda dengan sendirinya.
 
 **Bolehkah memakai tema dari tugas mata kuliah lain?**
-Boleh, dan bahkan dianjurkan bila persoalannya nyata. Yang tidak boleh adalah mengumpulkan karya yang sama untuk dua mata kuliah tanpa memberi tahu keduanya.
+Boleh, dan bahkan dianjurkan kalau persoalannya nyata. Yang tidak boleh adalah mengumpulkan karya yang sama untuk dua mata kuliah tanpa memberi tahu keduanya.
 
 **Bolehkah tema berkaitan dengan skripsi saya?**
 Boleh, dan ini sering menjadi pilihan terbaik. Catat bahwa yang dinilai di sini adalah rekayasa sistemnya, bukan kontribusi ilmiahnya.
 
-**Bagaimana bila bidang saya tidak punya dokumen yang cukup?**
-Perluas ke dokumen publik yang relevan: standar nasional, peraturan, panduan resmi, publikasi terbuka. Bila tetap tidak cukup, temanya perlu digeser — dan itu lebih baik disadari Minggu 5 daripada Minggu 9.
+**Bagaimana kalau bidang saya tidak punya dokumen yang cukup?**
+Perluas ke dokumen publik yang relevan: standar nasional, peraturan, panduan resmi, publikasi terbuka. Kalau tetap tidak cukup, temanya perlu digeser — dan itu lebih baik disadari Minggu 5 daripada Minggu 9.

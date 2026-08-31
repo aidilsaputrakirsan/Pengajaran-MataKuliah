@@ -362,7 +362,7 @@ F3 layak dijalankan sebelum UTS dan UAS. Ia mendekati bentuk pertanyaan yang aka
 
 ## G. Pola Meminta Bantuan di Forum Kelas
 
-Bukan prompt untuk AI, melainkan format pertanyaan yang akan dijawab di forum kelas. Pertanyaan yang tidak memakai format ini tidak dijawab.
+Bukan prompt untuk AI, tapi format pertanyaan di forum kelas. Pakai format ini supaya pertanyaan Anda bisa dijawab cepat — separuh persoalan biasanya terpecahkan saat Anda mengisinya sendiri.
 
 ```
 JUDUL   : <gejala dalam satu kalimat, bukan "tolong bantu">
