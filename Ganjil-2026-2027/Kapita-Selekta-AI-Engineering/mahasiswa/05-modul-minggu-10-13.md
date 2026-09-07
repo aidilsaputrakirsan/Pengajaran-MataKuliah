@@ -49,7 +49,7 @@ Sebagian besar sistem produksi yang baik adalah **workflow yang mengandung sedik
    ┌──────────────────────────────────────────┐
    │  1. NALAR    apa langkah berikutnya?     │
    │  2. TINDAK   panggil tool            │
-   │  3. AMATI    baca hasilnya               │
+   │  3. AMATI    baca hasilnya              │
    │  4. NILAI    tugas selesai? bila belum → 1│
    └──────────────────────────────────────────┘
         berhenti bila: selesai · batas langkah
@@ -88,9 +88,9 @@ Pertanyaan keempat adalah yang paling sering diabaikan dan yang menagih pada Min
 
 ---
 
-## 10.3 AMATI → PATAHKAN → PERBAIKI → RAKIT
+## 10.3 READ → BREAK → FIX → BUILD
 
-### AMATI — Menelusuri trace agen sederhana (25 menit, tanpa AI)
+### READ — Menelusuri trace agen sederhana (25 menit, tanpa AI)
 
 Jalankan satu agen contoh sederhana pada tugas yang membutuhkan dua tool, lalu catat jejaknya langkah demi langkah:
 
@@ -105,7 +105,7 @@ Lalu jawab dua hal:
 1. Pada langkah mana keputusan "lanjut atau berhenti" paling rapuh? Apa yang akan membuatnya salah?
 2. Alasan yang dinyatakan agen pada tiap langkah — apakah ia **penyebab** tindakannya, atau **penjelasan yang disusun** bersama tindakannya? Apa akibat jawaban Anda terhadap seberapa jauh trace itu dapat dipercaya saat mendiagnosis?
 
-### PATAHKAN — Enam percobaan (25 menit)
+### BREAK — Enam percobaan (25 menit)
 
 | # | Percobaan | Prediksi Anda | Hasil sebenarnya |
 |---|---|---|---|
@@ -120,7 +120,7 @@ Untuk nomor 2, catat **berapa biaya** yang terpakai sampai batas tercapai. Angka
 
 Untuk nomor 3, perhatikan apakah agen mencoba tool lain, mencoba ulang tanpa henti, atau menyerah. Ketiganya adalah perilaku yang berbeda dan hanya satu yang Anda inginkan.
 
-### PERBAIKI — Agen yang salah dirancang (20 menit)
+### FIX — Agen yang salah dirancang (20 menit)
 
 Sistem berikut dirancang sebagai agen. Ada **empat** keputusan yang salah.
 
@@ -142,7 +142,7 @@ Guardrails : tidak ada; seluruh tool berjalan otomatis
 
 Satu di antaranya salah pada tingkat yang paling mendasar: tugas ini seharusnya **tidak berbentuk agen sama sekali**. Jelaskan mengapa.
 
-### RAKIT — Analisis komparatif (mandiri)
+### BUILD — Analisis komparatif (mandiri)
 
 Buat `analisis-workflow-vs-agen.md` yang memenuhi seluruh kriteria sukses bagian 10.2. Sertakan diagram kedua rancangan, cukup dengan teks kotak dan panah.
 
@@ -153,7 +153,7 @@ Buat `analisis-workflow-vs-agen.md` yang memenuhi seluruh kriteria sukses bagian
 ## 10.4 Daftar Periksa Mandiri — Minggu 10
 
 - [ ] Trace agen tercatat langkah demi langkah dengan dua pertanyaan terjawab
-- [ ] Enam percobaan PATAHKAN dengan prediksi lebih dulu
+- [ ] Enam percobaan BREAK dengan prediksi lebih dulu
 - [ ] Biaya terburuk pada nomor 2 dicatat dalam angka
 - [ ] Empat keputusan salah ditemukan, termasuk yang paling mendasar
 - [ ] `analisis-workflow-vs-agen.md` lengkap dengan diagram keduanya
@@ -225,9 +225,9 @@ Butir terakhir bukan tambahan. Tanpa trace yang dapat dibaca, Anda tidak akan da
 
 ---
 
-## 11.3 AMATI → PATAHKAN → PERBAIKI → RAKIT
+## 11.3 READ → BREAK → FIX → BUILD
 
-### AMATI — Membaca trace tugas yang gagal (20 menit, tanpa AI)
+### READ — Membaca trace tugas yang gagal (20 menit, tanpa AI)
 
 Jalankan sistem Anda pada tugas yang cukup sulit sampai ia gagal, lalu bedah jejaknya:
 
@@ -236,7 +236,7 @@ Jalankan sistem Anda pada tugas yang cukup sulit sampai ia gagal, lalu bedah jej
 
 Tentukan **satu langkah** tempat kegagalan sebenarnya bermula. Perhatikan bahwa langkah tempat kegagalan **terlihat** biasanya bukan langkah tempat kegagalan **bermula**.
 
-### PATAHKAN — Enam percobaan (25 menit)
+### BREAK — Enam percobaan (25 menit)
 
 | # | Percobaan | Prediksi Anda | Hasil sebenarnya |
 |---|---|---|---|
@@ -251,7 +251,7 @@ Nomor 1 adalah ukuran keterdugaan sistem Anda. Kalau tiga kali menghasilkan tiga
 
 Nomor 5 adalah kegagalan paling berbahaya dalam sistem agentik: tool tidak berteriak, ia hanya salah. Catat apakah agen Anda menangkapnya, dan kalau tidak, apa yang seharusnya ada untuk menangkapnya.
 
-### PERBAIKI — Agen yang tak pernah selesai (20 menit)
+### FIX — Agen yang tak pernah selesai (20 menit)
 
 Agen berikut berputar tanpa henti pada tugas "cari tiga peraturan yang relevan lalu bandingkan".
 
@@ -268,7 +268,7 @@ Trace (diringkas):
 2. Untuk tiap sebab, sebutkan satu pemeriksaan yang dapat **membantahnya**.
 3. Sebutkan dua mekanisme yang mencegah pengulangan ini, dan kerugian masing-masing.
 
-### RAKIT — Agen yang bekerja (mandiri)
+### BUILD — Agen yang bekerja (mandiri)
 
 Wujudkan seluruh kriteria sukses bagian 11.2. Kumpulkan bersama sedikitnya **tiga trace lengkap**: satu tugas berhasil, satu tugas gagal, satu tugas yang mencapai batas langkah.
 
@@ -279,9 +279,9 @@ Wujudkan seluruh kriteria sukses bagian 11.2. Kumpulkan bersama sedikitnya **tig
 ## 11.4 Daftar Periksa Mandiri — Minggu 11
 
 - [ ] Trace tugas gagal dibedah dan titik awal kegagalan ditentukan
-- [ ] Enam percobaan PATAHKAN dengan prediksi lebih dulu
+- [ ] Enam percobaan BREAK dengan prediksi lebih dulu
 - [ ] Nomor 1 dijalankan tiga kali dan variasi jalurnya dicatat
-- [ ] Tiga sebab dan pemeriksaan pembantahnya tertulis untuk kasus PERBAIKI
+- [ ] Tiga sebab dan pemeriksaan pembantahnya tertulis untuk kasus FIX
 - [ ] Seluruh kriteria sukses 11.2 terpenuhi, termasuk trace yang terbaca
 - [ ] Tiga trace lengkap dikumpulkan
 - [ ] **Luaran Blok D bagian 1** dikumpulkan (komponen Proyek, 15% bersama Minggu 13)
@@ -293,7 +293,7 @@ Wujudkan seluruh kriteria sukses bagian 11.2. Kumpulkan bersama sedikitnya **tig
 
 **Sub-CPMK-4** · **(C4, C5)**
 **Target akhir minggu:** Anda dapat mengkritik arsitektur sistem yang sungguhan beroperasi, mengenali keputusan desainnya, dan menjelaskan alasan di baliknya.
-**Catatan:** Minggu ini tidak ada tahap RAKIT pada produk Anda. Ia sepenuhnya minggu analisis dan peer review.
+**Catatan:** Minggu ini tidak ada tahap BUILD pada produk Anda. Ia sepenuhnya minggu analisis dan peer review.
 
 ---
 
@@ -338,13 +338,13 @@ Butir terakhir mencegah peniruan buta. Sistem produksi dirancang untuk kendala y
 
 ---
 
-## 12.3 AMATI → PATAHKAN → PERBAIKI
+## 12.3 READ → BREAK → FIX
 
-### AMATI — Pembedahan terpandu (35 menit, di kelas, tanpa AI)
+### READ — Pembedahan terpandu (35 menit, di kelas, tanpa AI)
 
 Isi enam pertanyaan pembedahan bagian 12.1 untuk sistem yang dibedah. Jawaban ditulis tangan atau diketik langsung di kelas; ini satu-satunya penilaian minggu ini yang dikerjakan sepenuhnya di ruang kelas.
 
-### PATAHKAN — Serangan pikiran (25 menit, berpasangan)
+### BREAK — Serangan pikiran (25 menit, berpasangan)
 
 Tanpa menyentuh sistemnya, rancang **lima cara membuat sistem studi kasus itu gagal**. Untuk masing-masing:
 
@@ -353,7 +353,7 @@ Tanpa menyentuh sistemnya, rancang **lima cara membuat sistem studi kasus itu ga
 
 Sedikitnya dua dari lima harus berupa serangan pada **masukan** — dokumen atau teks yang disiapkan untuk menyesatkan sistem — bukan hanya kegagalan teknis seperti jaringan putus.
 
-### PERBAIKI — Peer Review kedua (mandiri)
+### FIX — Peer Review kedua (mandiri)
 
 Anda me-review produk **dua rekan dari prodi berbeda** dari rekan yang Anda review pada UTS. Setiap rekan menyerahkan trace agen dan ringkasan rancangannya.
 
@@ -447,16 +447,16 @@ Butir keempat menuntut kejujuran. Sistem yang **tidak lolos** uji serangan dan m
 
 ---
 
-## 13.3 AMATI → PATAHKAN → PERBAIKI → RAKIT
+## 13.3 READ → BREAK → FIX → BUILD
 
-### AMATI — Memetakan kewenangan (20 menit, tanpa AI)
+### READ — Memetakan kewenangan (20 menit, tanpa AI)
 
 | Tool | Boleh | Tidak boleh | Ditegakkan di mana (instruksi / kode / keduanya) | Kalau model diminta melanggarnya, apa yang terjadi |
 |---|---|---|---|---|
 
 Kolom keempat adalah inti tabel ini. Setiap baris yang hanya bertuliskan "instruksi" adalah lubang: ia bergantung pada kepatuhan model. Tandai lubang-lubang itu.
 
-### PATAHKAN — Enam serangan pada produk Anda sendiri (30 menit)
+### BREAK — Enam serangan pada produk Anda sendiri (30 menit)
 
 | # | Serangan | Prediksi Anda | Hasil sebenarnya |
 |---|---|---|---|
@@ -471,7 +471,7 @@ Nomor 2 biasanya lebih berhasil daripada nomor 1, dan alasannya penting: penggun
 
 Nomor 5 menguji apakah guardrails Anda menilai per-giliran atau menilai keseluruhan percakapan.
 
-### PERBAIKI — Guardrails yang salah tempat (20 menit)
+### FIX — Guardrails yang salah tempat (20 menit)
 
 Sistem berikut mengklaim aman. Ada **empat** kelemahan.
 
@@ -497,7 +497,7 @@ Pencatatan:
 
 Lalu jawab: dari empat perbaikan Anda, mana yang **paling murah** dan mana yang **paling kuat**? Apakah keduanya sama?
 
-### RAKIT — Produk berpengaman (mandiri)
+### BUILD — Produk berpengaman (mandiri)
 
 Wujudkan seluruh kriteria sukses bagian 13.2. Buat `guardrails.md` berisi tabel kewenangan, titik persetujuan manusia, hasil tiga uji serangan apa adanya, dan daftar lubang yang **Anda ketahui masih ada** beserta alasan mengapa belum ditutup.
 
@@ -513,7 +513,7 @@ Daftar lubang yang diketahui itu bukan kelemahan laporan; ia tanda kematangan. I
 - [ ] Lubang yang hanya bersandar pada instruksi ditandai
 - [ ] Enam serangan dijalankan pada produk sendiri dengan prediksi lebih dulu
 - [ ] Analisis mengapa nomor 2 lebih berhasil daripada nomor 1 tertulis
-- [ ] Empat kelemahan kasus PERBAIKI ditemukan beserta lapis perbaikannya
+- [ ] Empat kelemahan kasus FIX ditemukan beserta lapis perbaikannya
 - [ ] `guardrails.md` lengkap, termasuk daftar lubang yang diketahui
 - [ ] Tantangan wajib: serangan berhasil ditemukan dan ditutup di lapis 3 atau 4
 - [ ] **Luaran Blok D** dikumpulkan (komponen Proyek, 15%)

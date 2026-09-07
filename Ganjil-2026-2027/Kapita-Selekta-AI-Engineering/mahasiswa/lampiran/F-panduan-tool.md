@@ -31,7 +31,7 @@ Kerjakan berurutan. Kalau satu langkah gagal, jangan lanjut — pakai pola **F1 
 3. Terima kredensial model gateway dari dosen.
 4. Simpan kredensial di file rahasia — di luar file kode.
 5. Lakukan pemanggilan model pertama.
-6. Bedah pemanggilan itu memakai tabel Minggu 3 bagian AMATI.
+6. Bedah pemanggilan itu memakai tabel Minggu 3 bagian READ.
 7. Buat catatan-pemakaian.md dan isi baris pertama.
 ```
 
@@ -80,9 +80,9 @@ Anggaran ditetapkan di awal semester dan dikelola melalui model gateway dengan b
 
 ### Berjalan tanpa biaya sama sekali
 
-Kalau anggaran habis atau Anda memilih tidak memakai model berbayar, hal berikut tetap dapat dikerjakan penuh: seluruh tahap AMATI, seluruh perancangan instruksi dan skema, seluruh rancangan RAG, seluruh analisis workflow-vs-agen, seluruh kajian risiko dan etika, dan penyusunan set uji.
+Kalau anggaran habis atau Anda memilih tidak memakai model berbayar, hal berikut tetap dapat dikerjakan penuh: seluruh tahap READ, seluruh perancangan instruksi dan skema, seluruh rancangan RAG, seluruh analisis workflow-vs-agen, seluruh kajian risiko dan etika, dan penyusunan set uji.
 
-Yang membutuhkan pemanggilan model — tahap PATAHKAN, PERBAIKI, dan pengujian — dijalankan pada model bertarif rendah atau tanpa biaya yang tersedia lewat model gateway. Sampaikan kepada dosen agar dialokasikan. **Tidak ada penurunan nilai** karena memakai model murah; laporan evaluasi yang jujur tentang keterbatasan model murah justru bernilai penuh.
+Yang membutuhkan pemanggilan model — tahap BREAK, FIX, dan pengujian — dijalankan pada model bertarif rendah atau tanpa biaya yang tersedia lewat model gateway. Sampaikan kepada dosen agar dialokasikan. **Tidak ada penurunan nilai** karena memakai model murah; laporan evaluasi yang jujur tentang keterbatasan model murah justru bernilai penuh.
 
 ---
 
@@ -125,7 +125,7 @@ Pakai format ini supaya pertanyaan Anda bisa dijawab cepat:
 ```
 JUDUL   : <gejala dalam satu kalimat>
 
-Konteks : minggu ke-<N>, tahap <AMATI/PATAHKAN/PERBAIKI/RAKIT>
+Konteks : minggu ke-<N>, tahap <READ/BREAK/FIX/BUILD>
 Yang saya harapkan terjadi :
 Yang sebenarnya terjadi    :
 Yang sudah saya coba (min. 3) :

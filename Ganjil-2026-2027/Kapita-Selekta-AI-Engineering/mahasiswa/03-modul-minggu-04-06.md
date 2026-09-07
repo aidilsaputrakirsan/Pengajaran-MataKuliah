@@ -58,7 +58,7 @@ Karena itu setiap versi disimpan terpisah dengan catatan: apa yang diubah, menga
 
 ---
 
-## 4.2 Pustaka Prompt — Minggu 4
+## 4.2 Prompt Pack — Minggu 4
 
 ### A. Prompt Pengkritik Instruksi
 
@@ -107,9 +107,9 @@ Saat ini saya mengerjakannya dalam SATU prompt besar.
 
 ---
 
-## 4.3 AMATI → PATAHKAN → PERBAIKI → RAKIT
+## 4.3 READ → BREAK → FIX → BUILD
 
-### AMATI — Membedah instruksi yang bekerja (20 menit, tanpa AI)
+### READ — Membedah instruksi yang bekerja (20 menit, tanpa AI)
 
 Berikut instruksi sistem yang sudah bekerja untuk tugas penyaringan laporan. Bacalah, lalu petakan setiap kalimatnya ke enam sumbu.
 
@@ -142,7 +142,7 @@ Keluarkan enam baris, masing-masing berformat:
 
 Satu sumbu tidak terisi. Sumbu mana, dan mengapa instruksi ini masih bisa bekerja tanpanya?
 
-### PATAHKAN — Enam percobaan (25 menit)
+### BREAK — Enam percobaan (25 menit)
 
 Pakai instruksi di atas dengan satu laporan uji buatan Anda sendiri.
 
@@ -159,7 +159,7 @@ Nomor 5 adalah kasus yang paling sering diperdebatkan: apakah menandai ADA di si
 
 Nomor 6 adalah *prompt injection* pertama yang Anda temui. Catat apa yang terjadi. Kita kembali ke sini pada Minggu 13 dan 15.
 
-### PERBAIKI — Instruksi rusak (20 menit)
+### FIX — Instruksi rusak (20 menit)
 
 Instruksi berikut mengandung **tiga** kesalahan yang membuatnya tidak andal. Temukan ketiganya, jelaskan gejala yang ditimbulkan masing-masing, lalu perbaiki.
 
@@ -180,7 +180,7 @@ Jawab sesingkat mungkin tapi lengkap.
 | 2 | | | |
 | 3 | | | |
 
-### RAKIT — Tema terkunci dan instruksi v1 (mandiri)
+### BUILD — Tema terkunci dan instruksi v1 (mandiri)
 
 1. Isi dan kumpulkan **lembar tema proyek** (Lampiran B). Ini luaran wajib Minggu 4 dan menjadi syarat penilaian minggu-minggu berikutnya.
 2. Buat file `instruksi/v1.md` berisi instruksi sistem produk Anda, lengkap pada enam sumbu.
@@ -200,9 +200,9 @@ Jawab sesingkat mungkin tapi lengkap.
 
 - [ ] Lembar tema proyek terisi lengkap dan dikumpulkan
 - [ ] Pemetaan enam sumbu pada instruksi contoh selesai, termasuk sumbu yang hilang
-- [ ] Enam percobaan PATAHKAN dengan prediksi terisi lebih dulu
+- [ ] Enam percobaan BREAK dengan prediksi terisi lebih dulu
 - [ ] Keputusan Anda atas kasus tersirat (nomor 5) tertulis beserta alasan
-- [ ] Ketiga kesalahan tahap PERBAIKI ditemukan dan diperbaiki
+- [ ] Ketiga kesalahan tahap FIX ditemukan dan diperbaiki
 - [ ] `instruksi/v1.md` dan `instruksi/CATATAN.md` ada, minimal dua versi tercatat
 - [ ] Tantangan wajib disertai bukti berdampingan
 
@@ -260,7 +260,7 @@ Langkah 3 memisahkan prototipe dari produk. Sistem yang diam-diam menelan kegaga
 
 ---
 
-## 5.2 Pustaka Prompt — Minggu 5
+## 5.2 Prompt Pack — Minggu 5
 
 ### A. Prompt Perancang Skema
 
@@ -295,9 +295,9 @@ Jangan memberi solusinya.
 
 ---
 
-## 5.3 AMATI → PATAHKAN → PERBAIKI → RAKIT
+## 5.3 READ → BREAK → FIX → BUILD
 
-### AMATI — Membaca skema (20 menit, tanpa AI)
+### READ — Membaca skema (20 menit, tanpa AI)
 
 ```
 kategori           : salah satu dari [teknis, penagihan, layanan, lainnya]   (wajib)
@@ -314,7 +314,7 @@ Jawab tanpa mencoba:
 3. Kalau `dapat_ditentukan` bernilai `tidak`, medan mana yang seharusnya diabaikan? Apakah skema ini menyatakannya? Kalau tidak, apa akibatnya?
 4. Medan `tindakan_disarankan` dibatasi 20 kata. Apa yang terjadi kalau tindakan yang tepat memang panjang?
 
-### PATAHKAN — Enam percobaan (25 menit)
+### BREAK — Enam percobaan (25 menit)
 
 Pakai skema di atas pada produk uji Anda.
 
@@ -329,7 +329,7 @@ Pakai skema di atas pada produk uji Anda.
 
 Untuk nomor 5, hitung berapa **nilai berbeda** yang muncul dalam sepuluh kali percobaan. Angka itu adalah alasan keberadaan daftar nilai tertutup, dinyatakan dalam bukti, bukan dalam teori.
 
-### PERBAIKI — Keluaran tak sah (20 menit)
+### FIX — Keluaran tak sah (20 menit)
 
 Empat keluaran berikut melanggar skema di atas. Untuk masing-masing: sebutkan pelanggarannya, tebak sebabnya di sisi instruksi, dan sebutkan perbaikannya.
 
@@ -362,7 +362,7 @@ D)  kategori: teknis
 
 Keluaran C mengandung pelanggaran yang paling berbahaya karena ia paling sulit terdeteksi otomatis. Jelaskan mengapa.
 
-### RAKIT — Produk berkeluaran terstruktur (mandiri)
+### BUILD — Produk berkeluaran terstruktur (mandiri)
 
 1. Rancang skema keluaran produk Anda. Wajib memuat medan bukti dan satu nilai untuk kasus tak dapat ditentukan.
 2. Perbarui instruksi sistem ke versi baru yang menegakkan skema itu. Catat di `instruksi/CATATAN.md`.
@@ -376,9 +376,9 @@ Keluaran C mengandung pelanggaran yang paling berbahaya karena ia paling sulit t
 
 ## 5.4 Daftar Periksa Mandiri — Minggu 5
 
-- [ ] Empat pertanyaan AMATI terjawab tanpa mencoba lebih dulu
-- [ ] Nomor 5 PATAHKAN dijalankan 10 kali dan variasi nilainya dihitung
-- [ ] Empat keluaran tak sah tahap PERBAIKI dianalisis, termasuk mengapa C paling berbahaya
+- [ ] Empat pertanyaan READ terjawab tanpa mencoba lebih dulu
+- [ ] Nomor 5 BREAK dijalankan 10 kali dan variasi nilainya dihitung
+- [ ] Empat keluaran tak sah tahap FIX dianalisis, termasuk mengapa C paling berbahaya
 - [ ] Skema produk memuat medan bukti dan nilai tak-dapat-ditentukan
 - [ ] Tabel sepuluh masukan uji terisi
 - [ ] Penanganan kegagalan tiga langkah ada dan terbukti bekerja
@@ -440,7 +440,7 @@ Tool eksternal akan gagal: jaringan putus, file tidak ada, parameter salah. Yang
 
 ---
 
-## 6.2 Pustaka Prompt — Minggu 6
+## 6.2 Prompt Pack — Minggu 6
 
 ### A. Prompt Perancang Tool
 
@@ -475,9 +475,9 @@ Jangan beri solusi bila ternyata sistem saya memilih keliru.
 
 ---
 
-## 6.3 AMATI → PATAHKAN → PERBAIKI → RAKIT
+## 6.3 READ → BREAK → FIX → BUILD
 
-### AMATI — Menelusuri satu putaran tool (20 menit, tanpa AI)
+### READ — Menelusuri satu putaran tool (20 menit, tanpa AI)
 
 Jalankan satu contoh pemanggilan tool sederhana yang sudah bekerja, lalu isi jejaknya:
 
@@ -493,7 +493,7 @@ Jalankan satu contoh pemanggilan tool sederhana yang sudah bekerja, lalu isi jej
 
 Baris terakhir adalah yang terpenting. Model dapat menerima hasil tool yang benar lalu menyampaikannya dengan tambahan yang tidak ada di hasil itu. Periksa kata demi kata.
 
-### PATAHKAN — Enam percobaan (25 menit)
+### BREAK — Enam percobaan (25 menit)
 
 | # | Percobaan | Prediksi Anda | Hasil sebenarnya |
 |---|---|---|---|
@@ -508,7 +508,7 @@ Bandingkan nomor 3 dan 4 dengan saksama. Keduanya adalah kegagalan, tetapi hanya
 
 Nomor 6 adalah cicipan pertama tentang agentic. Catat apakah model berhasil merangkai dua langkah, dan kalau gagal, gagal di titik mana. Kita kembali ke sini Minggu 10.
 
-### PERBAIKI — Deskripsi tool yang menyesatkan (20 menit)
+### FIX — Deskripsi tool yang menyesatkan (20 menit)
 
 Sistem berikut punya tiga tool. Pengguna bertanya *"Berapa jumlah penduduk Kawasan Industri Kariangau dan apa ketentuan zonasinya?"* dan sistem memilih tool yang salah.
 
@@ -522,7 +522,7 @@ Sistem berikut punya tiga tool. Pengguna bertanya *"Berapa jumlah penduduk Kawas
 2. Tulis ulang ketiga deskripsi sehingga pemilihannya dapat ditebak.
 3. Pertanyaan ini butuh dua tool. Sebutkan urutan yang benar dan apa yang terjadi kalau urutannya dibalik.
 
-### RAKIT — Produk memanggil tool (mandiri)
+### BUILD — Produk memanggil tool (mandiri)
 
 1. Rancang sedikitnya satu tool untuk produk Anda. Tool yang hanya membaca lebih dianjurkan pada tahap ini.
 2. Tulis untuk tiap tool: nama, kegunaan, parameter, keluaran, kapan **tidak** dipakai, dan batas kewenangan.
@@ -537,9 +537,9 @@ Sistem berikut punya tiga tool. Pengguna bertanya *"Berapa jumlah penduduk Kawas
 ## 6.4 Daftar Periksa Mandiri — Minggu 6
 
 - [ ] Trace satu putaran tool terisi lengkap, termasuk uji kesetiaan jawaban
-- [ ] Enam percobaan PATAHKAN dengan prediksi lebih dulu
+- [ ] Enam percobaan BREAK dengan prediksi lebih dulu
 - [ ] Analisis perbandingan nomor 3 dan 4 tertulis
-- [ ] Ketiga deskripsi tool tahap PERBAIKI ditulis ulang
+- [ ] Ketiga deskripsi tool tahap FIX ditulis ulang
 - [ ] Produk memanggil ≥1 tool dan hasilnya terbukti dipakai
 - [ ] Tiap tool punya batas kewenangan tertulis
 - [ ] Tantangan wajib disertai bukti sebelum-sesudah

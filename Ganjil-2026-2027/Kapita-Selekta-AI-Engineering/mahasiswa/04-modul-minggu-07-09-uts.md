@@ -98,11 +98,11 @@ Keputusan terakhir adalah keputusan **etis**, bukan teknis. Sistem yang diam-dia
 
 ---
 
-## 7.2 AMATI → PATAHKAN → PERBAIKI → RAKIT
+## 7.2 READ → BREAK → FIX → BUILD
 
 Pola prompt yang relevan minggu ini ada di Lampiran A bagian C. Pilih sendiri.
 
-### AMATI — Memotong dokumen dengan tangan (25 menit, tanpa AI)
+### READ — Memotong dokumen dengan tangan (25 menit, tanpa AI)
 
 Ambil satu dokumen rujukan Anda sendiri.
 
@@ -117,7 +117,7 @@ Ambil satu dokumen rujukan Anda sendiri.
 
 Nomor 4 akan Anda pakai berulang kali sampai Minggu 16. Simpan baik-baik.
 
-### PATAHKAN — Lima percobaan (25 menit)
+### BREAK — Lima percobaan (25 menit)
 
 Pakai tool pemenggal dan pencari sederhana apa pun yang Anda siapkan.
 
@@ -131,7 +131,7 @@ Pakai tool pemenggal dan pencari sederhana apa pun yang Anda siapkan.
 
 Nomor 5 adalah inti minggu ini. Catat: apakah sistem tetap mengembalikan chunk? Berapa nilai kemiripannya? Apakah nilai itu cukup rendah untuk dijadikan ambang penolakan? Kalau tidak, apa artinya bagi rancangan Anda?
 
-### PERBAIKI — Rancangan RAG yang cacat (20 menit)
+### FIX — Rancangan RAG yang cacat (20 menit)
 
 Mahasiswa lain menyerahkan rancangan berikut untuk sistem tanya-jawab peraturan zonasi. Ada **empat** cacat.
 
@@ -155,7 +155,7 @@ Keluaran : paragraf bebas
 
 Satu di antara empat cacat itu berpotensi merugikan pengguna secara nyata, bukan sekadar menurunkan mutu jawaban. Yang mana, dan mengapa?
 
-### RAKIT — Rancangan alur RAG (mandiri)
+### BUILD — Rancangan alur RAG (mandiri)
 
 Luaran minggu ini adalah **rancangan**, bukan sistem yang jalan. Sistemnya dirakit Minggu 9.
 
@@ -176,7 +176,7 @@ Buat `rancangan-rag.md` berisi:
 
 - [ ] Chunking manual dilakukan dan aturannya tertulis
 - [ ] Sepuluh pertanyaan uji tersusun sesuai komposisi
-- [ ] Lima percobaan PATAHKAN dengan prediksi lebih dulu, nomor 5 dicatat nilai kemiripannya
+- [ ] Lima percobaan BREAK dengan prediksi lebih dulu, nomor 5 dicatat nilai kemiripannya
 - [ ] Keempat cacat rancangan ditemukan, termasuk yang paling merugikan pengguna
 - [ ] `rancangan-rag.md` lengkap enam bagian, setiap keputusan berlasan
 - [ ] Tantangan wajib terjawab dengan dua cara beserta biayanya
@@ -309,11 +309,11 @@ Sistem yang menang telak pada angka pertama dan gagal total pada angka kedua ada
 
 ---
 
-## 9.2 AMATI → PATAHKAN → PERBAIKI → RAKIT
+## 9.2 READ → BREAK → FIX → BUILD
 
 Pola prompt yang relevan ada di Lampiran A bagian C dan D.
 
-### AMATI — Melihat chunk yang terambil (20 menit, tanpa AI)
+### READ — Melihat chunk yang terambil (20 menit, tanpa AI)
 
 Jalankan tiga pertanyaan uji Anda dan catat, sebelum melihat jawaban akhirnya:
 
@@ -322,7 +322,7 @@ Jalankan tiga pertanyaan uji Anda dan catat, sebelum melihat jawaban akhirnya:
 
 Baru setelah tabel terisi, lihat jawaban akhirnya dan tentukan jenis kegagalan kalau ada. Urutan ini penting: melihat jawaban lebih dulu akan mewarnai penilaian Anda atas potongannya.
 
-### PATAHKAN — Enam percobaan (25 menit)
+### BREAK — Enam percobaan (25 menit)
 
 | # | Percobaan | Prediksi Anda | Hasil sebenarnya |
 |---|---|---|---|
@@ -337,7 +337,7 @@ Nomor 2 adalah uji paling penting minggu ini. Kalau sistem tetap menjawab dengan
 
 Nomor 3 dan 6 akan kita bahas lagi pada Minggu 13 dan 15. Catat perilakunya sekarang sebagai garis dasar.
 
-### PERBAIKI — Tiga jawaban bermasalah (20 menit)
+### FIX — Tiga jawaban bermasalah (20 menit)
 
 Untuk setiap kasus: tentukan jenis kegagalannya, sebutkan bagaimana Anda **membuktikan** diagnosis itu, dan sebutkan perbaikannya.
 
@@ -349,7 +349,7 @@ Untuk setiap kasus: tentukan jenis kegagalannya, sebutkan bagaimana Anda **membu
 
 Kasus C adalah yang paling berbahaya. Jelaskan mengapa — perhatikan bahwa jawabannya kemungkinan besar **benar**.
 
-### RAKIT — Produk yang menjawab dari dokumen Anda (mandiri)
+### BUILD — Produk yang menjawab dari dokumen Anda (mandiri)
 
 1. Rakit alur RAG penuh sesuai `rancangan-rag.md`.
 2. Tegakkan kesetiaan dengan sedikitnya dua dari empat mekanisme di bagian 9.1. Sebutkan mengapa Anda memilih yang itu.
@@ -368,9 +368,9 @@ Kasus C adalah yang paling berbahaya. Jelaskan mengapa — perhatikan bahwa jawa
 ## 9.3 Daftar Periksa Mandiri — Minggu 9
 
 - [ ] Tabel chunk terambil diisi **sebelum** melihat jawaban akhir
-- [ ] Enam percobaan PATAHKAN dengan prediksi lebih dulu
+- [ ] Enam percobaan BREAK dengan prediksi lebih dulu
 - [ ] Nomor 2 dijalankan dan perilakunya dicatat apa adanya
-- [ ] Tiga kasus PERBAIKI didiagnosis beserta cara membuktikan diagnosisnya
+- [ ] Tiga kasus FIX didiagnosis beserta cara membuktikan diagnosisnya
 - [ ] Alur RAG penuh berjalan dengan rujukan sumber pada keluaran
 - [ ] Perilaku penolakan terbukti bekerja pada pertanyaan tak berjawaban
 - [ ] Dua angka garis dasar dihitung dan dicatat

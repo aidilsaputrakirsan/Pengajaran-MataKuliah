@@ -48,12 +48,12 @@ Modul diturunkan dari struktur DMJK (4 SKS, dua asisten) dengan empat penyesuaia
 
 | Kendala | Penyesuaian |
 |---|---|
-| 2 SKS, 100 menit/minggu | Konsep dibaca sebelum kelas; tatap muka dipakai untuk mengerjakan. Tahap RAKIT sepenuhnya mandiri |
+| 2 SKS, 100 menit/minggu | Konsep dibaca sebelum kelas; tatap muka dipakai untuk mengerjakan. Tahap BUILD sepenuhnya mandiri |
 | Tanpa asisten | Verifikasi checkpoint di layar diganti daftar periksa mandiri + catatan proses wajib + viva pada UTS/UAS. Kasus untuk diperbaiki sudah tertulis di modul, sehingga beban persiapan mingguan mendekati nol |
 | Tanpa prasyarat pemrograman | Bobot "sistem berfungsi" 25%; "rancangan dan alasannya" 35% |
 | Lintas program studi | Tidak ada kasus tunggal; setiap mahasiswa membawa persoalan dari bidangnya, dengan lingkup diturunkan dari kode peserta K |
 
-Siklus mingguan **AMATI → PATAHKAN → PERBAIKI → RAKIT** adalah padanan siklus READ/BREAK/FIX/BUILD pada DMJK.
+Siklus mingguan **READ → BREAK → FIX → BUILD** sama dengan yang dipakai pada DMJK dan Proweb, sehingga mahasiswa yang mengambil lebih dari satu mata kuliah ini menemui istilah tahap yang sama.
 
 ---
 

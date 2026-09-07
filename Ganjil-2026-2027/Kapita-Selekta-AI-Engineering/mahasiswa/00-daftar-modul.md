@@ -73,14 +73,14 @@ Minggu 1–6 memberi prompt dan langkah yang siap pakai. Mulai Minggu 7 contoh p
 
 | Tahap | Yang dikerjakan | Waktu khas |
 |---|---|---|
-| **AMATI** | Menjalankan sesuatu yang sudah bekerja dan menjelaskan *mengapa* ia bekerja. Dikerjakan **tanpa AI** | 20 menit |
-| **PATAHKAN** | Merusak sendiri dari tabel percobaan. **Kolom prediksi diisi sebelum mencoba** | 25 menit |
-| **PERBAIKI** | Memperbaiki kasus rusak yang disediakan dosen; jumlah kesalahannya selalu diberitahukan | 20 menit |
-| **RAKIT** | Menambah satu lapisan ke produk Anda sendiri | 35 menit + mandiri |
+| **READ** | Menjalankan sesuatu yang sudah bekerja dan menjelaskan *mengapa* ia bekerja. Dikerjakan **tanpa AI** | 20 menit |
+| **BREAK** | Merusak sendiri dari tabel percobaan. **Kolom prediksi diisi sebelum mencoba** | 25 menit |
+| **FIX** | Memperbaiki kasus rusak yang disediakan dosen; jumlah kesalahannya selalu diberitahukan | 20 menit |
+| **BUILD** | Menambah satu lapisan ke produk Anda sendiri | 35 menit + mandiri |
 
 Kolom prediksi tidak dinilai benar atau salahnya. Yang dinilai adalah apakah Anda mengisinya **sebelum** mencoba. Prediksi yang meleset dan tercatat jujur justru bahan terbaik untuk catatan proses Anda — di situlah terlihat apa yang tadinya Anda kira, dan apa yang ternyata terjadi.
 
-Tahap AMATI dikerjakan tanpa AI karena ia satu-satunya bagian yang mengukur apakah Anda benar-benar paham. Tiga tahap lain boleh, bahkan dianjurkan, memakai AI.
+Tahap READ dikerjakan tanpa AI karena ia satu-satunya bagian yang mengukur apakah Anda benar-benar paham. Tiga tahap lain boleh, bahkan dianjurkan, memakai AI.
 
 ---
 
@@ -144,9 +144,9 @@ Kalau ada keadaan yang membuat salah satu ketentuan ini memberatkan Anda secara 
 
 | Mgg | Pokok Bahasan | Tahap | Yang dikumpulkan |
 |:--:|---|---|---|
-| 1 | Orientasi, kontrak kuliah, lanskap AI generatif | AMATI | Peta minat dan calon persoalan |
-| 2 | Anatomi model: token, konteks, suhu, halusinasi | AMATI–PATAHKAN | Laporan pengamatan perilaku model |
-| 3 | Lingkungan kerja dan model gateway | RAKIT | Bukti pemanggilan model pertama · **Kuis 1** |
+| 1 | Orientasi, kontrak kuliah, lanskap AI generatif | READ | Peta minat dan calon persoalan |
+| 2 | Anatomi model: token, konteks, suhu, halusinasi | READ–BREAK | Laporan pengamatan perilaku model |
+| 3 | Lingkungan kerja dan model gateway | BUILD | Bukti pemanggilan model pertama · **Kuis 1** |
 | 4 | Instruksi terstruktur dan teknik penalaran | Empat tahap | **Lembar tema proyek** + pustaka instruksi v1 |
 | 5 | Keluaran terstruktur dan skema sebagai kontrak | Empat tahap | Prototipe berkeluaran berformat |
 | 6 | Pemanggilan tool | Empat tahap | Prototipe memanggil tool · **Kuis 2** |
@@ -155,7 +155,7 @@ Kalau ada keadaan yang membuat salah satu ketentuan ini memberatkan Anda secara 
 | 9 | Merakit RAG utuh, menangani jawaban tak berdasar | Empat tahap | Produk menjawab berbasis dokumen |
 | 10 | Dari *workflow* ke *agent* | Empat tahap | Analisis komparatif dua pendekatan |
 | 11 | Tool, memori, orkestrasi langkah majemuk | Empat tahap | Agen menyelesaikan tugas bertahap |
-| 12 | Studi kasus praktisi: arsitektur agen produksi | AMATI | Kritik arsitektur + peer review |
+| 12 | Studi kasus praktisi: arsitektur agen produksi | READ | Kritik arsitektur + peer review |
 | 13 | *Guardrails* dan *human-in-the-loop* | Empat tahap | Mekanisme guardrails pada produk |
 | 14 | Evaluasi sistematis dan pengendalian biaya | Empat tahap | Set uji dan laporan evaluasi |
 | 15 | Keamanan, etika, bias, tanggung jawab profesional | Empat tahap | Kajian risiko dan pernyataan etis |

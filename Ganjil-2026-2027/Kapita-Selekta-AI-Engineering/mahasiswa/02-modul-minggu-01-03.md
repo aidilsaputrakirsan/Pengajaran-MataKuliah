@@ -3,7 +3,7 @@
 
 **Kapita Selekta: AI Engineering | Sub-CPMK-1 | CPMK-1**
 
-> **Cara memakai modul ini.** Setiap minggu punya empat bagian: **Konsep** (dibaca sebelum kelas), **Pustaka Prompt** (alat bantu AI untuk minggu itu), **AMATI → PATAHKAN → PERBAIKI → RAKIT** (dikerjakan di kelas dan dilanjutkan mandiri), dan **Daftar Periksa** (Anda verifikasi sendiri; tidak ada asisten yang memeriksanya untuk Anda).
+> **Cara memakai modul ini.** Setiap minggu punya empat bagian: **Konsep** (dibaca sebelum kelas), **Prompt Pack** (alat bantu AI untuk minggu itu), **READ → BREAK → FIX → BUILD** (dikerjakan di kelas dan dilanjutkan mandiri), dan **Daftar Periksa** (Anda verifikasi sendiri; tidak ada asisten yang memeriksanya untuk Anda).
 >
 > Tatap muka hanya 100 menit. Bagian Konsep **tidak** dibacakan ulang di kelas.
 
@@ -76,7 +76,7 @@ Salah satu keterampilan yang dinilai di kelas ini adalah keberanian mengatakan "
 
 ---
 
-## 1.2 Pustaka Prompt — Minggu 1
+## 1.2 Prompt Pack — Minggu 1
 
 ### A. Prompt Pemetaan Persoalan
 
@@ -113,9 +113,9 @@ Jangan menempelkan dokumen internal organisasi, data pribadi orang lain, atau da
 
 ---
 
-## 1.3 AMATI → PATAHKAN → PERBAIKI → RAKIT
+## 1.3 READ → BREAK → FIX → BUILD
 
-### AMATI — Tiga persoalan, satu peta (25 menit, tanpa AI)
+### READ — Tiga persoalan, satu peta (25 menit, tanpa AI)
 
 Ambil tiga persoalan berikut. Untuk masing-masing, tentukan disiplin mana yang sebenarnya dibutuhkan, lalu tuliskan alasannya dalam satu kalimat.
 
@@ -127,7 +127,9 @@ Ambil tiga persoalan berikut. Untuk masing-masing, tentukan disiplin mana yang s
 
 Kemudian jawab: **persoalan nomor berapa yang berubah jawabannya kalau jumlah datanya menjadi 40.000, bukan 40?** Jelaskan.
 
-### PATAHKAN — Pertanyaan yang sama, jawaban yang berbeda (25 menit)
+### BREAK — Pertanyaan yang sama, jawaban yang berbeda (25 menit)
+
+> **Alat untuk percobaan ini.** Pakai antarmuka chat mana pun yang Anda punya — kredensial model gateway kelas baru dibutuhkan Minggu 3, jadi jangan menunggu. Catat **model apa dan tanggal berapa** Anda mencobanya di catatan proses: jawaban model berubah antar versi, dan tanpa catatan itu hasil Anda tidak dapat ditelusuri ulang. Hasil Anda **tidak harus sama** dengan hasil rekan — yang diamati gejalanya, bukan angkanya.
 
 Isi kolom prediksi **sebelum** mencoba.
 
@@ -140,11 +142,11 @@ Isi kolom prediksi **sebelum** mencoba.
 
 Nomor 3 dan 4 menghasilkan gejala mirip tetapi sebabnya berbeda. Jelaskan bedanya: pada nomor mana model **tidak tahu bahwa ia tidak tahu**?
 
-### PERBAIKI — Tidak ada pada minggu ini
+### FIX — Tidak ada pada minggu ini
 
-Tahap PERBAIKI dimulai Minggu 4, setelah Anda punya cukup dasar untuk mengenali gejala.
+Tahap FIX dimulai Minggu 4, setelah Anda punya cukup dasar untuk mengenali gejala.
 
-### RAKIT — Peta persoalan pribadi (mandiri)
+### BUILD — Peta persoalan pribadi (mandiri)
 
 1. Catat kode peserta **K** Anda. Hitung seluruh angka minimum lingkup Anda menurut Lampiran B. Tuliskan di catatan proses.
 2. Tuliskan **tiga** calon persoalan dari bidang keilmuan Anda. Untuk masing-masing isi:
@@ -167,8 +169,8 @@ Tahap PERBAIKI dimulai Minggu 4, setelah Anda punya cukup dasar untuk mengenali 
 ## 1.4 Daftar Periksa Mandiri — Minggu 1
 
 - [ ] Kode peserta K dicatat dan seluruh angka lingkup dihitung
-- [ ] Tabel AMATI terisi lengkap dengan alasan
-- [ ] Empat baris PATAHKAN punya kolom prediksi terisi **sebelum** percobaan
+- [ ] Tabel READ terisi lengkap dengan alasan
+- [ ] Empat baris BREAK punya kolom prediksi terisi **sebelum** percobaan
 - [ ] Tiga calon persoalan terisi lengkap enam unsur
 - [ ] Tantangan wajib terjawab
 - [ ] Catatan proses ditulis memakai template Lampiran C
@@ -240,7 +242,7 @@ Karena itu halusinasi tidak dapat dihapus. Ia hanya dapat **dikurangi peluangnya
 
 ---
 
-## 2.2 Pustaka Prompt — Minggu 2
+## 2.2 Prompt Pack — Minggu 2
 
 ### A. Prompt Pengamatan Terpandu
 
@@ -285,9 +287,9 @@ Tunjukkan perhitungannya, jangan hanya hasil akhirnya.
 
 ---
 
-## 2.3 AMATI → PATAHKAN → PERBAIKI → RAKIT
+## 2.3 READ → BREAK → FIX → BUILD
 
-### AMATI — Membaca keluaran dengan curiga (25 menit, tanpa AI)
+### READ — Membaca keluaran dengan curiga (25 menit, tanpa AI)
 
 Ambil satu jawaban model tentang bidang Anda yang panjangnya kira-kira satu paragraf. Bedah dengan tabel berikut:
 
@@ -297,7 +299,9 @@ Ambil satu jawaban model tentang bidang Anda yang panjangnya kira-kira satu para
 
 Isi sedikitnya lima baris. Lalu jawab: berapa persen pernyataan yang **tidak dapat Anda periksa sama sekali**? Apa artinya angka itu bagi rencana produk Anda?
 
-### PATAHKAN — Enam percobaan (30 menit)
+### BREAK — Enam percobaan (30 menit)
+
+> **Alat untuk percobaan ini.** Pakai antarmuka chat mana pun yang Anda punya — kredensial model gateway kelas baru dibutuhkan Minggu 3, jadi jangan menunggu. Catat **model apa dan tanggal berapa** Anda mencobanya di catatan proses: jawaban model berubah antar versi, dan tanpa catatan itu hasil Anda tidak dapat ditelusuri ulang. Hasil Anda **tidak harus sama** dengan hasil rekan — yang diamati gejalanya, bukan angkanya.
 
 Isi prediksi lebih dulu. Catat keluaran apa adanya, termasuk yang memalukan.
 
@@ -314,9 +318,9 @@ Nomor 4 dan 5 adalah inti minggu ini: apakah satu kalimat instruksi mengubah per
 
 Nomor 6 menguji "kehilangan di tengah". Ulangi dengan kalimat aneh diletakkan di akhir teks dan bandingkan.
 
-### PERBAIKI — Tidak ada pada minggu ini
+### FIX — Tidak ada pada minggu ini
 
-### RAKIT — Anggaran dan batas (mandiri)
+### BUILD — Anggaran dan batas (mandiri)
 
 1. Pilih satu dari tiga calon persoalan Minggu 1 sebagai calon terkuat.
 2. Perkirakan untuk persoalan itu: panjang masukan khas, panjang keluaran khas, jumlah pemanggilan per tugas.
@@ -330,7 +334,7 @@ Nomor 6 menguji "kehilangan di tengah". Ulangi dengan kalimat aneh diletakkan di
 ## 2.4 Daftar Periksa Mandiri — Minggu 2
 
 - [ ] Tabel pembedahan jawaban terisi ≥5 baris
-- [ ] Enam percobaan PATAHKAN dijalankan dengan prediksi terisi lebih dulu
+- [ ] Enam percobaan BREAK dijalankan dengan prediksi terisi lebih dulu
 - [ ] Nomor 5 diulang lima kali dan hasilnya dihitung
 - [ ] Perhitungan biaya ditampilkan langkahnya, bukan hanya hasil
 - [ ] Tantangan wajib dilaporkan apa adanya, termasuk kalau gagal
@@ -393,7 +397,7 @@ Butir 3 adalah yang paling sering dilanggar di kelas berbasis AI-assisted develo
 
 ---
 
-## 3.2 Pustaka Prompt — Minggu 3
+## 3.2 Prompt Pack — Minggu 3
 
 ### A. Prompt Penyiapan Berpandu
 
@@ -440,9 +444,9 @@ Bantu saya menyusun protokol perbandingan yang JUJUR:
 
 ---
 
-## 3.3 AMATI → PATAHKAN → PERBAIKI → RAKIT
+## 3.3 READ → BREAK → FIX → BUILD
 
-### AMATI — Membaca satu pemanggilan (20 menit, tanpa AI)
+### READ — Membaca satu pemanggilan (20 menit, tanpa AI)
 
 Panduan penyiapan lengkap ada di [lampiran/F-panduan-tool.md](lampiran/F-panduan-tool.md). Setelah pemanggilan pertama Anda berhasil, jangan langsung lanjut. Bedah dulu:
 
@@ -459,7 +463,7 @@ Panduan penyiapan lengkap ada di [lampiran/F-panduan-tool.md](lampiran/F-panduan
 
 Lalu jawab: kalau Anda menghapus bagian "system", apa yang Anda **duga** berubah? Jangan dicoba dulu — itu percobaan nomor 1 di tahap berikutnya.
 
-### PATAHKAN — Lima percobaan (25 menit)
+### BREAK — Lima percobaan (25 menit)
 
 | # | Percobaan | Prediksi Anda | Hasil sebenarnya |
 |---|---|---|---|
@@ -473,9 +477,9 @@ Untuk nomor 2, perhatikan **bagaimana** keluaran berakhir. Apakah ia meringkas, 
 
 Untuk nomor 5, catat tiga angka untuk masing-masing model: biaya, waktu tanggap, dan penilaian kualitas Anda sendiri dalam skala 1–5 beserta alasannya.
 
-### PERBAIKI — Tidak ada pada minggu ini
+### FIX — Tidak ada pada minggu ini
 
-### RAKIT — Lingkungan kerja dan catatan pemakaian (mandiri)
+### BUILD — Lingkungan kerja dan catatan pemakaian (mandiri)
 
 1. Simpan file pemanggilan pertama Anda yang berjalan sebagai titik awal produk.
 2. Pastikan API key tersimpan di luar file kode dan tidak akan ikut terunggah.
@@ -491,7 +495,7 @@ Untuk nomor 5, catat tiga angka untuk masing-masing model: biaya, waktu tanggap,
 - [ ] Pemanggilan model pertama berhasil dan buktinya tersimpan
 - [ ] API key berada di luar file kode dan di luar repositori
 - [ ] Tabel pembedahan pemanggilan terisi lengkap
-- [ ] Lima percobaan PATAHKAN dijalankan dengan prediksi lebih dulu
+- [ ] Lima percobaan BREAK dijalankan dengan prediksi lebih dulu
 - [ ] Perbandingan tiga model terisi biaya, latensi, dan kualitas
 - [ ] `catatan-pemakaian.md` dibuat dan sudah berisi baris pertama
 - [ ] Tantangan wajib disertai bukti berdampingan

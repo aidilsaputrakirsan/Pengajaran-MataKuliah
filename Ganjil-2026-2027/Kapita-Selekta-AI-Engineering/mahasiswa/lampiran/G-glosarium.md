@@ -56,6 +56,7 @@ Padanan Indonesia tetap dicantumkan di sini karena dua alasan: peserta kelas ini
 | **caching** | penyimpanan sementara | Menyimpan hasil yang berulang agar tidak dihitung ulang |
 | **peer review** | telaah sejawat | Menelaah dan mengkritik karya rekan secara terstruktur |
 | **latency** | latensi | Waktu tanggap sistem |
+| **READ · BREAK · FIX · BUILD** | amati · patahkan · perbaiki · rakit | Nama keempat tahap siklus mingguan. Dipertahankan dalam bahasa Inggris agar sama dengan DMJK dan Proweb |
 
 ---
 
@@ -67,7 +68,6 @@ Padanan Indonesia tetap dicantumkan di sini karena dua alasan: peserta kelas ini
 | **kredensial** | Ini memang istilah teknis Indonesianya; tidak ada versi Inggris yang lebih dikenal di kelas |
 | **daftar periksa** | Transparan, dan tidak menghalangi pencarian rujukan |
 | **catatan proses** | Nama artefak khas mata kuliah ini, bukan istilah teknis umum |
-| **AMATI · PATAHKAN · PERBAIKI · RAKIT** | Nama tahap khas mata kuliah ini |
 
 ---
 

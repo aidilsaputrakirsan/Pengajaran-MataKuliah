@@ -112,9 +112,9 @@ Setiap cara yang Anda terapkan wajib disertai bukti bahwa **kualitas tidak turun
 
 ---
 
-## 14.3 AMATI → PATAHKAN → PERBAIKI → RAKIT
+## 14.3 READ → BREAK → FIX → BUILD
 
-### AMATI — Menilai lima kasus dengan tangan (25 menit, tanpa AI)
+### READ — Menilai lima kasus dengan tangan (25 menit, tanpa AI)
 
 Jalankan lima kasus uji dan nilai sendiri memakai lima pertanyaan biner:
 
@@ -123,7 +123,7 @@ Jalankan lima kasus uji dan nilai sendiri memakai lima pertanyaan biner:
 
 Lalu jawab: pertanyaan biner nomor berapa yang **paling sulit** Anda nilai secara konsisten? Perbaiki rumusannya sampai Anda yakin orang lain akan sampai pada jawaban yang sama.
 
-### PATAHKAN — Enam percobaan (25 menit)
+### BREAK — Enam percobaan (25 menit)
 
 | # | Percobaan | Prediksi Anda | Hasil sebenarnya |
 |---|---|---|---|
@@ -138,7 +138,7 @@ Nomor 1 mengukur reproducibility sistem Anda. Kalau banyak kasus berubah antar-j
 
 Nomor 6 menguji penilainya, bukan sistemnya. Penilai yang meluluskan keluaran yang jelas salah tidak layak dipakai.
 
-### PERBAIKI — Laporan evaluasi yang menyesatkan (20 menit)
+### FIX — Laporan evaluasi yang menyesatkan (20 menit)
 
 Laporan berikut memuat **lima** masalah.
 
@@ -160,7 +160,7 @@ menghemat 60% biaya.
 
 Satu masalah lebih serius daripada empat lainnya karena ia membuat seluruh angka pada laporan itu tak bermakna. Yang mana?
 
-### RAKIT — Laporan evaluasi (mandiri)
+### BUILD — Laporan evaluasi (mandiri)
 
 Susun `laporan-evaluasi.md` memakai [lampiran/D-template-laporan-evaluasi.md](lampiran/D-template-laporan-evaluasi.md), memenuhi seluruh kriteria sukses bagian 14.2.
 
@@ -172,7 +172,7 @@ Susun `laporan-evaluasi.md` memakai [lampiran/D-template-laporan-evaluasi.md](la
 
 - [ ] Set uji lengkap sesuai komposisi, dengan jawaban acuan
 - [ ] Kriteria biner diperbaiki sampai konsisten diterapkan
-- [ ] Enam percobaan PATAHKAN dengan prediksi lebih dulu
+- [ ] Enam percobaan BREAK dengan prediksi lebih dulu
 - [ ] Variance antar-jalan (nomor 1) dilaporkan bersama angka evaluasi
 - [ ] Kalibrasi penilai model dilaporkan kalau penilai model dipakai
 - [ ] Lima masalah laporan menyesatkan ditemukan
@@ -243,9 +243,9 @@ Butir terakhir menuntut kejujuran. Setiap sistem punya risiko yang diterima; men
 
 ---
 
-## 15.3 AMATI → PATAHKAN → PERBAIKI → RAKIT
+## 15.3 READ → BREAK → FIX → BUILD
 
-### AMATI — Menelusuri alur data (20 menit, tanpa AI)
+### READ — Menelusuri alur data (20 menit, tanpa AI)
 
 | Pertanyaan | Jawaban untuk produk Anda |
 |---|---|
@@ -258,7 +258,7 @@ Butir terakhir menuntut kejujuran. Setiap sistem punya risiko yang diterima; men
 
 Lalu periksa: apakah ada mekanisme yang **mencegah** baris terakhir masuk, atau Anda hanya berharap tidak terjadi?
 
-### PATAHKAN — Enam percobaan (25 menit)
+### BREAK — Enam percobaan (25 menit)
 
 | # | Percobaan | Prediksi Anda | Hasil sebenarnya |
 |---|---|---|---|
@@ -273,7 +273,7 @@ Nomor 3 adalah uji bias rancangan. Catat ke kategori mana kasus itu dipaksa masu
 
 Nomor 6 bukan latihan. Kalau ditemukan, cabut kunci itu hari ini dan laporkan tindakan Anda di catatan proses.
 
-### PERBAIKI — Pernyataan etis yang kosong (20 menit)
+### FIX — Pernyataan etis yang kosong (20 menit)
 
 ```
 PERNYATAAN ETIS
@@ -288,7 +288,7 @@ Data pengguna dijaga kerahasiaannya.
 2. Tulis ulang masing-masing menjadi pernyataan yang **dapat diperiksa** oleh pihak ketiga.
 3. Sebutkan satu hal penting yang sama sekali tidak disinggung pernyataan itu.
 
-### RAKIT — Kajian risiko dan pernyataan etis (mandiri)
+### BUILD — Kajian risiko dan pernyataan etis (mandiri)
 
 Susun `kajian-risiko.md` memenuhi seluruh kriteria sukses bagian 15.2. Pernyataan etis ditulis sebagai bagian yang dapat berdiri sendiri, karena ia akan ditampilkan pada UAS.
 
@@ -299,7 +299,7 @@ Susun `kajian-risiko.md` memenuhi seluruh kriteria sukses bagian 15.2. Pernyataa
 ## 15.4 Daftar Periksa Mandiri — Minggu 15
 
 - [ ] Trace data lengkap enam baris, termasuk mekanisme pencegah
-- [ ] Enam percobaan PATAHKAN dengan prediksi lebih dulu
+- [ ] Enam percobaan BREAK dengan prediksi lebih dulu
 - [ ] Nomor 6 benar-benar dijalankan pada repositori Anda
 - [ ] Kajian bias memuat contoh konkret dari produk sendiri
 - [ ] Pernyataan etis dapat diperiksa pihak ketiga

@@ -64,7 +64,7 @@ Bobot 35% pada rancangan bukan kebetulan: mata kuliah ini tidak mensyaratkan kem
 
 ### Yang dinilai
 
-Catatan proses diisi **sebelum** dan **selama** mengerjakan, bukan sesudah. Kolom prediksi tahap PATAHKAN wajib terisi lebih dulu — prediksi yang meleset dan tercatat lebih bernilai daripada kolom yang dikosongkan.
+Catatan proses diisi **sebelum** dan **selama** mengerjakan, bukan sesudah. Kolom prediksi tahap BREAK wajib terisi lebih dulu — prediksi yang meleset dan tercatat lebih bernilai daripada kolom yang dikosongkan.
 
 Untuk peserta di atas 20 orang, pemeriksaan dilakukan bergilir: setiap mahasiswa diperiksa penuh sedikitnya lima kali sepanjang semester, dan minggu mana tidak diberitahukan.
 
@@ -74,7 +74,7 @@ Lima butir, masing-masing dinilai 0 / 1 / 2:
 
 | # | Yang diperiksa | 0 | 1 | 2 |
 |:--:|---|---|---|---|
-| 1 | Prediksi PATAHKAN terisi dan konsisten dengan hasil | Kosong atau jelas diisi belakangan | Terisi seadanya | Terisi, sebagian meleset dan dianalisis |
+| 1 | Prediksi BREAK terisi dan konsisten dengan hasil | Kosong atau jelas diisi belakangan | Terisi seadanya | Terisi, sebagian meleset dan dianalisis |
 | 2 | Keputusan rancangan disertai alternatif yang ditolak | Tidak ada | Ada tanpa alternatif | Lengkap |
 | 3 | Penggunaan AI terlacak; kolom "yang saya ubah" bermakna | Kosong atau "tidak ada" | Ada tetapi dangkal | Terlacak dan dinilai kritis |
 | 4 | Daftar periksa jujur | Selalu penuh tanpa jejak perbaikan | Sebagian | Jujur, yang tertinggal dikejar minggu berikut |

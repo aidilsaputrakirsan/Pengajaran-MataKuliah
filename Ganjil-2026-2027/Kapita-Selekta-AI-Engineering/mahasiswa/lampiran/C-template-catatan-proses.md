@@ -33,14 +33,14 @@ Waktu yang saya habiskan minggu ini : ___ jam
 (3–5 kalimat. Apa yang berubah pada produk saya, bukan apa yang saya baca.)
 
 
-## 2. Tahap AMATI
+## 2. Tahap READ
 Yang saya amati :
 Yang mengejutkan saya :
 (Wajib diisi. Bila tidak ada yang mengejutkan, tulis apa yang sudah
 Anda duga sebelumnya dan mengapa dugaan itu tepat.)
 
 
-## 3. Tahap PATAHKAN
+## 3. Tahap BREAK
 | # | Percobaan | Prediksi saya | Hasil sebenarnya | Prediksi tepat? |
 |---|---|---|---|---|
 |   |   |   |   | ya / tidak |
@@ -49,14 +49,14 @@ Prediksi saya yang paling MELESET : nomor ___
 Apa yang salah dari cara saya berpikir sebelumnya :
 
 
-## 4. Tahap PERBAIKI
+## 4. Tahap FIX
 Kesalahan yang saya temukan :
 Bagaimana saya membuktikan diagnosis itu, bukan sekadar menduganya :
 Kesalahan yang TIDAK saya temukan sendiri (bila ada) dan bagaimana
 akhirnya ketemu :
 
 
-## 5. Tahap RAKIT
+## 5. Tahap BUILD
 Yang berhasil :
 Yang tidak berhasil :
 Keputusan rancangan yang saya ambil minggu ini, beserta alasannya :

@@ -89,7 +89,7 @@ Menguji Sub-CPMK 1–3: fondasi, kendali keluaran, dan rancangan grounding.
 37. Sebutkan satu keputusan rancangan yang dapat dibuat berbeda, dan mengapa Anda memilih yang ini.
 38. Bagian mana dari karya Anda yang dibuat dengan bantuan AI, dan bagaimana Anda memverifikasinya?
 39. Sebutkan satu hal yang AI berikan kepada Anda dan ternyata salah. Bagaimana Anda menemukannya?
-40. Prediksi Anda pada tahap PATAHKAN minggu ke berapa yang paling meleset? Apa yang salah dari cara Anda berpikir waktu itu?
+40. Prediksi Anda pada tahap BREAK minggu ke berapa yang paling meleset? Apa yang salah dari cara Anda berpikir waktu itu?
 
 ---
 ---

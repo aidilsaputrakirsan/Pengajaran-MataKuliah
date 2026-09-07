@@ -1,4 +1,4 @@
-# Lampiran A — Pustaka Prompt
+# Lampiran A — Prompt Pack
 
 **Kapita Selekta: AI Engineering | Ganjil 2026/2027**
 
@@ -367,7 +367,7 @@ Bukan prompt untuk AI, tapi format pertanyaan di forum kelas. Pakai format ini s
 ```
 JUDUL   : <gejala dalam satu kalimat, bukan "tolong bantu">
 
-Konteks : minggu ke-<N>, tahap <AMATI/PATAHKAN/PERBAIKI/RAKIT>
+Konteks : minggu ke-<N>, tahap <READ/BREAK/FIX/BUILD>
 Yang saya harapkan terjadi :
 Yang sebenarnya terjadi    :
 Yang sudah saya coba (min. 3) :
